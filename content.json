@@ -1,7 +1,7 @@
 {
- "version": 5,
- "updated": "2026-11-08",
- "notes": "Kannada translations and Kannada titles for all 49 class-notes stories, and about 300 more word meanings (tap-a-word coverage ~89%). The Kannada translations and the new meanings are not yet checked by a teacher. Small text fixes in stories 1.34, 1.47 and 1.49.",
+ "version": 6,
+ "updated": "2026-11-09",
+ "notes": "v6: 722 words in 20 topics and 49 synonym families, 14 new conversation scenes (22 in all). The Verses section was removed. The new words and dialogues are not yet checked by a teacher.",
  "VARGAS": [
   {
    "id": "kantha",
@@ -5730,7 +5730,8 @@
    "sa": "सूर्यः",
    "en": "sun",
    "kn": "ಸೂರ್ಯ",
-   "c": "sun"
+   "c": "sun",
+   "t": "nature"
   },
   {
    "sa": "रविः",
@@ -5760,7 +5761,8 @@
    "sa": "चन्द्रः",
    "en": "moon",
    "kn": "ಚಂದ್ರ",
-   "c": "moon"
+   "c": "moon",
+   "t": "nature"
   },
   {
    "sa": "शशी",
@@ -5784,7 +5786,8 @@
    "sa": "जलम्",
    "en": "water",
    "kn": "ನೀರು",
-   "c": "water"
+   "c": "water",
+   "t": "food"
   },
   {
    "sa": "वारि",
@@ -5814,7 +5817,8 @@
    "sa": "अग्निः",
    "en": "fire",
    "kn": "ಬೆಂಕಿ",
-   "c": "fire"
+   "c": "fire",
+   "t": "nature"
   },
   {
    "sa": "वह्निः",
@@ -5838,7 +5842,8 @@
    "sa": "वायुः",
    "en": "wind",
    "kn": "ಗಾಳಿ",
-   "c": "wind"
+   "c": "wind",
+   "t": "nature"
   },
   {
    "sa": "पवनः",
@@ -5904,7 +5909,8 @@
    "sa": "भूमिः",
    "en": "earth",
    "kn": "ಭೂಮಿ",
-   "c": "earth"
+   "c": "earth",
+   "t": "nature"
   },
   {
    "sa": "धरा",
@@ -5922,7 +5928,8 @@
    "sa": "गृहम्",
    "en": "house",
    "kn": "ಮನೆ",
-   "c": "house"
+   "c": "house",
+   "t": "home"
   },
   {
    "sa": "भवनम्",
@@ -5946,7 +5953,8 @@
    "sa": "वृक्षः",
    "en": "tree",
    "kn": "ಮರ",
-   "c": "tree"
+   "c": "tree",
+   "t": "nature"
   },
   {
    "sa": "तरुः",
@@ -5964,7 +5972,8 @@
    "sa": "मेघः",
    "en": "cloud",
    "kn": "ಮೋಡ",
-   "c": "cloud"
+   "c": "cloud",
+   "t": "nature"
   },
   {
    "sa": "जलदः",
@@ -5982,7 +5991,8 @@
    "sa": "हस्तः",
    "en": "hand",
    "kn": "ಕೈ",
-   "c": "hand"
+   "c": "hand",
+   "t": "body"
   },
   {
    "sa": "करः",
@@ -6000,7 +6010,8 @@
    "sa": "नेत्रम्",
    "en": "eye",
    "kn": "ಕಣ್ಣು",
-   "c": "eye"
+   "c": "eye",
+   "t": "body"
   },
   {
    "sa": "नयनम्",
@@ -6017,242 +6028,4073 @@
   {
    "sa": "माता",
    "en": "mother",
-   "kn": "ತಾಯಿ"
+   "kn": "ತಾಯಿ",
+   "t": "family",
+   "c": "mother"
   },
   {
    "sa": "पिता",
    "en": "father",
-   "kn": "ತಂದೆ"
+   "kn": "ತಂದೆ",
+   "t": "family"
   },
   {
    "sa": "भ्राता",
    "en": "brother",
-   "kn": "ಸಹೋದರ"
+   "kn": "ಸಹೋದರ",
+   "t": "family"
   },
   {
    "sa": "भगिनी",
    "en": "sister",
-   "kn": "ಸಹೋದರಿ"
+   "kn": "ಸಹೋದರಿ",
+   "t": "family"
   },
   {
    "sa": "मित्रम्",
    "en": "friend",
-   "kn": "ಸ್ನೇಹಿತ"
+   "kn": "ಸ್ನೇಹಿತ",
+   "t": "family",
+   "c": "friend"
   },
   {
    "sa": "बालकः",
    "en": "boy",
-   "kn": "ಹುಡುಗ"
+   "kn": "ಹುಡುಗ",
+   "t": "family"
   },
   {
    "sa": "बालिका",
    "en": "girl",
-   "kn": "ಹುಡುಗಿ"
+   "kn": "ಹುಡುಗಿ",
+   "t": "family"
   },
   {
    "sa": "गुरुः",
    "en": "teacher",
-   "kn": "ಗುರು"
+   "kn": "ಗುರು",
+   "t": "study"
   },
   {
    "sa": "छात्रः",
    "en": "student",
-   "kn": "ವಿದ್ಯಾರ್ಥಿ"
+   "kn": "ವಿದ್ಯಾರ್ಥಿ",
+   "t": "people"
   },
   {
    "sa": "पुस्तकम्",
    "en": "book",
-   "kn": "ಪುಸ್ತಕ"
+   "kn": "ಪುಸ್ತಕ",
+   "t": "study"
   },
   {
    "sa": "लेखनी",
    "en": "pen",
-   "kn": "ಲೇಖನಿ"
+   "kn": "ಲೇಖನಿ",
+   "t": "study"
   },
   {
    "sa": "फलम्",
    "en": "fruit",
-   "kn": "ಹಣ್ಣು"
+   "kn": "ಹಣ್ಣು",
+   "t": "food"
   },
   {
    "sa": "पुष्पम्",
    "en": "flower",
-   "kn": "ಹೂವು"
+   "kn": "ಹೂವು",
+   "t": "nature",
+   "c": "flower"
   },
   {
    "sa": "अन्नम्",
    "en": "food, rice",
-   "kn": "ಅನ್ನ"
+   "kn": "ಅನ್ನ",
+   "t": "food"
   },
   {
    "sa": "दुग्धम्",
    "en": "milk",
-   "kn": "ಹಾಲು"
+   "kn": "ಹಾಲು",
+   "t": "misc"
   },
   {
    "sa": "आपणः",
    "en": "shop",
-   "kn": "ಅಂಗಡಿ"
+   "kn": "ಅಂಗಡಿ",
+   "t": "town"
   },
   {
    "sa": "वस्त्रम्",
    "en": "cloth, garment",
-   "kn": "ಬಟ್ಟೆ"
+   "kn": "ಬಟ್ಟೆ",
+   "t": "clothes"
   },
   {
    "sa": "मूल्यम्",
    "en": "price",
-   "kn": "ಬೆಲೆ"
+   "kn": "ಬೆಲೆ",
+   "t": "misc"
   },
   {
    "sa": "रूप्यकम्",
    "en": "rupee",
-   "kn": "ರೂಪಾಯಿ"
+   "kn": "ರೂಪಾಯಿ",
+   "t": "modern"
   },
   {
    "sa": "ग्रामः",
    "en": "village",
-   "kn": "ಹಳ್ಳಿ"
+   "kn": "ಹಳ್ಳಿ",
+   "t": "town"
   },
   {
    "sa": "नगरम्",
    "en": "city",
-   "kn": "ನಗರ"
+   "kn": "ನಗರ",
+   "t": "town"
   },
   {
    "sa": "मन्दिरम्",
    "en": "temple",
-   "kn": "ಮಂದಿರ"
+   "kn": "ಮಂದಿರ",
+   "t": "town"
   },
   {
    "sa": "मठः",
    "en": "maṭha",
-   "kn": "ಮಠ"
+   "kn": "ಮಠ",
+   "t": "misc"
   },
   {
    "sa": "नदी",
    "en": "river",
-   "kn": "ನದಿ"
+   "kn": "ನದಿ",
+   "t": "nature",
+   "c": "river"
   },
   {
    "sa": "समुद्रः",
    "en": "sea",
-   "kn": "ಸಮುದ್ರ"
+   "kn": "ಸಮುದ್ರ",
+   "t": "nature",
+   "c": "sea"
   },
   {
    "sa": "काकः",
    "en": "crow",
-   "kn": "ಕಾಗೆ"
+   "kn": "ಕಾಗೆ",
+   "t": "birds",
+   "c": "crow"
   },
   {
    "sa": "वानरः",
    "en": "monkey",
-   "kn": "ಕೋತಿ"
+   "kn": "ಕೋತಿ",
+   "t": "animals",
+   "c": "monkey"
   },
   {
    "sa": "व्याघ्रः",
    "en": "tiger",
-   "kn": "ಹುಲಿ"
+   "kn": "ಹುಲಿ",
+   "t": "animals"
   },
   {
    "sa": "सिंहः",
    "en": "lion",
-   "kn": "ಸಿಂಹ"
+   "kn": "ಸಿಂಹ",
+   "t": "animals",
+   "c": "lion"
   },
   {
    "sa": "गजः",
    "en": "elephant",
-   "kn": "ಆನೆ"
+   "kn": "ಆನೆ",
+   "t": "animals",
+   "c": "elephant"
   },
   {
    "sa": "अश्वः",
    "en": "horse",
-   "kn": "ಕುದುರೆ"
+   "kn": "ಕುದುರೆ",
+   "t": "animals",
+   "c": "horse"
   },
   {
    "sa": "धेनुः",
    "en": "cow",
-   "kn": "ಹಸು"
+   "kn": "ಹಸು",
+   "t": "misc"
   },
   {
    "sa": "प्रातः",
    "en": "morning",
-   "kn": "ಬೆಳಿಗ್ಗೆ"
+   "kn": "ಬೆಳಿಗ್ಗೆ",
+   "t": "time"
   },
   {
    "sa": "सायम्",
    "en": "evening",
-   "kn": "ಸಂಜೆ"
+   "kn": "ಸಂಜೆ",
+   "t": "time"
   },
   {
    "sa": "अद्य",
    "en": "today",
-   "kn": "ಇಂದು"
+   "kn": "ಇಂದು",
+   "t": "time"
   },
   {
    "sa": "श्वः",
    "en": "tomorrow",
-   "kn": "ನಾಳೆ"
+   "kn": "ನಾಳೆ",
+   "t": "time"
   },
   {
    "sa": "ह्यः",
    "en": "yesterday",
-   "kn": "ನಿನ್ನೆ"
+   "kn": "ನಿನ್ನೆ",
+   "t": "time"
   },
   {
    "sa": "अत्र",
    "en": "here",
-   "kn": "ಇಲ್ಲಿ"
+   "kn": "ಇಲ್ಲಿ",
+   "t": "small"
   },
   {
    "sa": "तत्र",
    "en": "there",
-   "kn": "ಅಲ್ಲಿ"
+   "kn": "ಅಲ್ಲಿ",
+   "t": "small"
   },
   {
    "sa": "कुत्र",
    "en": "where?",
-   "kn": "ಎಲ್ಲಿ?"
+   "kn": "ಎಲ್ಲಿ?",
+   "t": "small"
   },
   {
    "sa": "किम्",
    "en": "what?",
-   "kn": "ಏನು?"
+   "kn": "ಏನು?",
+   "t": "small"
   },
   {
    "sa": "कदा",
    "en": "when?",
-   "kn": "ಯಾವಾಗ?"
+   "kn": "ಯಾವಾಗ?",
+   "t": "small"
   },
   {
    "sa": "कथम्",
    "en": "how?",
-   "kn": "ಹೇಗೆ?"
+   "kn": "ಹೇಗೆ?",
+   "t": "small"
   },
   {
    "sa": "आम्",
    "en": "yes",
-   "kn": "ಹೌದು"
+   "kn": "ಹೌದು",
+   "t": "small"
   },
   {
    "sa": "न",
    "en": "no, not",
-   "kn": "ಇಲ್ಲ"
+   "kn": "ಇಲ್ಲ",
+   "t": "small"
   },
   {
    "sa": "शीघ्रम्",
    "en": "quickly",
-   "kn": "ಬೇಗ"
+   "kn": "ಬೇಗ",
+   "t": "small"
   },
   {
    "sa": "शनैः",
    "en": "slowly",
-   "kn": "ನಿಧಾನವಾಗಿ"
+   "kn": "ನಿಧಾನವಾಗಿ",
+   "t": "small"
   },
   {
    "sa": "सुन्दरम्",
    "en": "beautiful",
-   "kn": "ಸುಂದರ"
+   "kn": "ಸುಂದರ",
+   "t": "misc"
+  },
+  {
+   "sa": "शिरः",
+   "en": "head",
+   "kn": "ತಲೆ",
+   "t": "body"
+  },
+  {
+   "sa": "मुखम्",
+   "en": "face, mouth",
+   "kn": "ಮುಖ",
+   "t": "body"
+  },
+  {
+   "sa": "कर्णः",
+   "en": "ear",
+   "kn": "ಕಿವಿ",
+   "t": "body"
+  },
+  {
+   "sa": "नासिका",
+   "en": "nose",
+   "kn": "ಮೂಗು",
+   "t": "body"
+  },
+  {
+   "sa": "दन्तः",
+   "en": "tooth",
+   "kn": "ಹಲ್ಲು",
+   "t": "body"
+  },
+  {
+   "sa": "जिह्वा",
+   "en": "tongue",
+   "kn": "ನಾಲಿಗೆ",
+   "t": "body"
+  },
+  {
+   "sa": "ओष्ठः",
+   "en": "lip",
+   "kn": "ತುಟಿ",
+   "t": "body"
+  },
+  {
+   "sa": "कण्ठः",
+   "en": "throat",
+   "kn": "ಗಂಟಲು",
+   "t": "body"
+  },
+  {
+   "sa": "अङ्गुलिः",
+   "en": "finger",
+   "kn": "ಬೆರಳು",
+   "t": "body"
+  },
+  {
+   "sa": "पादः",
+   "en": "foot",
+   "kn": "ಪಾದ",
+   "t": "body"
+  },
+  {
+   "sa": "जानु",
+   "en": "knee",
+   "kn": "ಮಂಡಿ",
+   "t": "body"
+  },
+  {
+   "sa": "उदरम्",
+   "en": "stomach",
+   "kn": "ಹೊಟ್ಟೆ",
+   "t": "body"
+  },
+  {
+   "sa": "हृदयम्",
+   "en": "heart",
+   "kn": "ಹೃದಯ",
+   "t": "body"
+  },
+  {
+   "sa": "केशः",
+   "en": "hair",
+   "kn": "ಕೂದಲು",
+   "t": "body"
+  },
+  {
+   "sa": "ललाटम्",
+   "en": "forehead",
+   "kn": "ಹಣೆ",
+   "t": "body"
+  },
+  {
+   "sa": "स्कन्धः",
+   "en": "shoulder",
+   "kn": "ಭುಜ",
+   "t": "body"
+  },
+  {
+   "sa": "पृष्ठम्",
+   "en": "back",
+   "kn": "ಬೆನ್ನು",
+   "t": "body"
+  },
+  {
+   "sa": "नखः",
+   "en": "nail",
+   "kn": "ಉಗುರು",
+   "t": "body"
+  },
+  {
+   "sa": "कपोलः",
+   "en": "cheek",
+   "kn": "ಕೆನ್ನೆ",
+   "t": "body"
+  },
+  {
+   "sa": "बाहुः",
+   "en": "arm",
+   "kn": "ತೋಳು",
+   "t": "body"
+  },
+  {
+   "sa": "ग्रीवा",
+   "en": "neck",
+   "kn": "ಕುತ್ತಿಗೆ",
+   "t": "body"
+  },
+  {
+   "sa": "रक्तम्",
+   "en": "blood",
+   "kn": "ರಕ್ತ",
+   "t": "body"
+  },
+  {
+   "sa": "चर्म",
+   "en": "skin",
+   "kn": "ಚರ್ಮ",
+   "t": "body"
+  },
+  {
+   "sa": "अस्थि",
+   "en": "bone",
+   "kn": "ಮೂಳೆ",
+   "t": "body"
+  },
+  {
+   "sa": "पुत्रः",
+   "en": "son",
+   "kn": "ಮಗ",
+   "t": "family",
+   "c": "son"
+  },
+  {
+   "sa": "पुत्री",
+   "en": "daughter",
+   "kn": "ಮಗಳು",
+   "t": "family",
+   "c": "daughter"
+  },
+  {
+   "sa": "पतिः",
+   "en": "husband",
+   "kn": "ಗಂಡ",
+   "t": "family"
+  },
+  {
+   "sa": "पत्नी",
+   "en": "wife",
+   "kn": "ಹೆಂಡತಿ",
+   "t": "family"
+  },
+  {
+   "sa": "पितामहः",
+   "en": "paternal grandfather",
+   "kn": "ಅಜ್ಜ (ತಂದೆಯ ತಂದೆ)",
+   "t": "family",
+   "c": "brahma"
+  },
+  {
+   "sa": "पितामही",
+   "en": "paternal grandmother",
+   "kn": "ಅಜ್ಜಿ (ತಂದೆಯ ತಾಯಿ)",
+   "t": "family"
+  },
+  {
+   "sa": "मातामहः",
+   "en": "maternal grandfather",
+   "kn": "ಅಜ್ಜ (ತಾಯಿಯ ತಂದೆ)",
+   "t": "family"
+  },
+  {
+   "sa": "मातामही",
+   "en": "maternal grandmother",
+   "kn": "ಅಜ್ಜಿ (ತಾಯಿಯ ತಾಯಿ)",
+   "t": "family"
+  },
+  {
+   "sa": "पौत्रः",
+   "en": "grandson",
+   "kn": "ಮೊಮ್ಮಗ",
+   "t": "family"
+  },
+  {
+   "sa": "पौत्री",
+   "en": "granddaughter",
+   "kn": "ಮೊಮ್ಮಗಳು",
+   "t": "family"
+  },
+  {
+   "sa": "मातुलः",
+   "en": "maternal uncle",
+   "kn": "ಸೋದರಮಾವ",
+   "t": "family"
+  },
+  {
+   "sa": "पितृव्यः",
+   "en": "paternal uncle",
+   "kn": "ಚಿಕ್ಕಪ್ಪ / ದೊಡ್ಡಪ್ಪ",
+   "t": "family"
+  },
+  {
+   "sa": "श्वशुरः",
+   "en": "father-in-law",
+   "kn": "ಮಾವ",
+   "t": "family"
+  },
+  {
+   "sa": "श्वश्रूः",
+   "en": "mother-in-law",
+   "kn": "ಅತ್ತೆ",
+   "t": "family"
+  },
+  {
+   "sa": "शिशुः",
+   "en": "baby",
+   "kn": "ಮಗು",
+   "t": "family"
+  },
+  {
+   "sa": "वृद्धः",
+   "en": "old man",
+   "kn": "ಮುದುಕ",
+   "t": "family"
+  },
+  {
+   "sa": "अतिथिः",
+   "en": "guest",
+   "kn": "ಅತಿಥಿ",
+   "t": "family"
+  },
+  {
+   "sa": "बन्धुः",
+   "en": "relative",
+   "kn": "ಬಂಧು",
+   "t": "family"
+  },
+  {
+   "sa": "प्रतिवेशी",
+   "en": "neighbour",
+   "kn": "ನೆರೆಹೊರೆಯವನು",
+   "t": "family"
+  },
+  {
+   "sa": "ओदनः",
+   "en": "cooked rice",
+   "kn": "ಅನ್ನ",
+   "t": "food"
+  },
+  {
+   "sa": "रोटिका",
+   "en": "chapati",
+   "kn": "ಚಪಾತಿ, ರೊಟ್ಟಿ",
+   "t": "food"
+  },
+  {
+   "sa": "क्षीरम्",
+   "en": "milk",
+   "kn": "ಹಾಲು",
+   "t": "food"
+  },
+  {
+   "sa": "दधि",
+   "en": "curd",
+   "kn": "ಮೊಸರು",
+   "t": "food"
+  },
+  {
+   "sa": "तक्रम्",
+   "en": "buttermilk",
+   "kn": "ಮಜ್ಜಿಗೆ",
+   "t": "food"
+  },
+  {
+   "sa": "घृतम्",
+   "en": "ghee",
+   "kn": "ತುಪ್ಪ",
+   "t": "food"
+  },
+  {
+   "sa": "नवनीतम्",
+   "en": "butter",
+   "kn": "ಬೆಣ್ಣೆ",
+   "t": "food"
+  },
+  {
+   "sa": "लवणम्",
+   "en": "salt",
+   "kn": "ಉಪ್ಪು",
+   "t": "food"
+  },
+  {
+   "sa": "शर्करा",
+   "en": "sugar",
+   "kn": "ಸಕ್ಕರೆ",
+   "t": "food"
+  },
+  {
+   "sa": "गुडः",
+   "en": "jaggery",
+   "kn": "ಬೆಲ್ಲ",
+   "t": "food"
+  },
+  {
+   "sa": "मधु",
+   "en": "honey",
+   "kn": "ಜೇನು",
+   "t": "food"
+  },
+  {
+   "sa": "तैलम्",
+   "en": "oil",
+   "kn": "ಎಣ್ಣೆ",
+   "t": "food"
+  },
+  {
+   "sa": "शाकः",
+   "en": "vegetable",
+   "kn": "ತರಕಾರಿ",
+   "t": "food"
+  },
+  {
+   "sa": "आम्रम्",
+   "en": "mango",
+   "kn": "ಮಾವಿನಹಣ್ಣು",
+   "t": "food"
+  },
+  {
+   "sa": "कदलीफलम्",
+   "en": "banana",
+   "kn": "ಬಾಳೆಹಣ್ಣು",
+   "t": "food"
+  },
+  {
+   "sa": "नारिकेलम्",
+   "en": "coconut",
+   "kn": "ತೆಂಗಿನಕಾಯಿ",
+   "t": "food"
+  },
+  {
+   "sa": "द्राक्षा",
+   "en": "grape",
+   "kn": "ದ್ರಾಕ್ಷಿ",
+   "t": "food"
+  },
+  {
+   "sa": "दाडिमम्",
+   "en": "pomegranate",
+   "kn": "ದಾಳಿಂಬೆ",
+   "t": "food"
+  },
+  {
+   "sa": "आलुकम्",
+   "en": "potato",
+   "kn": "ಆಲೂಗಡ್ಡೆ",
+   "t": "food"
+  },
+  {
+   "sa": "पलाण्डुः",
+   "en": "onion",
+   "kn": "ಈರುಳ್ಳಿ",
+   "t": "food"
+  },
+  {
+   "sa": "मरीचम्",
+   "en": "pepper",
+   "kn": "ಮೆಣಸು",
+   "t": "food"
+  },
+  {
+   "sa": "चायम्",
+   "en": "tea",
+   "kn": "ಚಹಾ",
+   "t": "food"
+  },
+  {
+   "sa": "काफी",
+   "en": "coffee",
+   "kn": "ಕಾಫಿ",
+   "t": "food"
+  },
+  {
+   "sa": "सूपः",
+   "en": "dal, soup",
+   "kn": "ಸಾರು, ತೊವ್ವೆ",
+   "t": "food"
+  },
+  {
+   "sa": "व्यञ्जनम्",
+   "en": "side dish",
+   "kn": "ಪಲ್ಯ",
+   "t": "food"
+  },
+  {
+   "sa": "मोदकः",
+   "en": "sweet dumpling",
+   "kn": "ಮೋದಕ",
+   "t": "food"
+  },
+  {
+   "sa": "पायसम्",
+   "en": "kheer",
+   "kn": "ಪಾಯಸ",
+   "t": "food"
+  },
+  {
+   "sa": "द्वारम्",
+   "en": "door",
+   "kn": "ಬಾಗಿಲು",
+   "t": "home"
+  },
+  {
+   "sa": "गवाक्षः",
+   "en": "window",
+   "kn": "ಕಿಟಕಿ",
+   "t": "home"
+  },
+  {
+   "sa": "भित्तिः",
+   "en": "wall",
+   "kn": "ಗೋಡೆ",
+   "t": "home"
+  },
+  {
+   "sa": "कक्ष्या",
+   "en": "room",
+   "kn": "ಕೋಣೆ",
+   "t": "home"
+  },
+  {
+   "sa": "पाकशाला",
+   "en": "kitchen",
+   "kn": "ಅಡುಗೆಮನೆ",
+   "t": "home"
+  },
+  {
+   "sa": "स्नानगृहम्",
+   "en": "bathroom",
+   "kn": "ಬಚ್ಚಲುಮನೆ",
+   "t": "home"
+  },
+  {
+   "sa": "शय्या",
+   "en": "bed",
+   "kn": "ಹಾಸಿಗೆ",
+   "t": "home"
+  },
+  {
+   "sa": "आसन्दः",
+   "en": "chair",
+   "kn": "ಕುರ್ಚಿ",
+   "t": "home"
+  },
+  {
+   "sa": "उत्पीठिका",
+   "en": "table",
+   "kn": "ಮೇಜು",
+   "t": "home"
+  },
+  {
+   "sa": "पात्रम्",
+   "en": "vessel",
+   "kn": "ಪಾತ್ರೆ",
+   "t": "home"
+  },
+  {
+   "sa": "स्थालिका",
+   "en": "plate",
+   "kn": "ತಟ್ಟೆ",
+   "t": "home"
+  },
+  {
+   "sa": "चषकः",
+   "en": "cup, glass",
+   "kn": "ಲೋಟ",
+   "t": "home"
+  },
+  {
+   "sa": "चमसः",
+   "en": "spoon",
+   "kn": "ಚಮಚ",
+   "t": "home"
+  },
+  {
+   "sa": "दीपः",
+   "en": "lamp",
+   "kn": "ದೀಪ",
+   "t": "home"
+  },
+  {
+   "sa": "कुञ्चिका",
+   "en": "key",
+   "kn": "ಬೀಗದ ಕೈ",
+   "t": "home"
+  },
+  {
+   "sa": "सम्मार्जनी",
+   "en": "broom",
+   "kn": "ಪೊರಕೆ",
+   "t": "home"
+  },
+  {
+   "sa": "दर्पणः",
+   "en": "mirror",
+   "kn": "ಕನ್ನಡಿ",
+   "t": "home"
+  },
+  {
+   "sa": "कङ्कतः",
+   "en": "comb",
+   "kn": "ಬಾಚಣಿಗೆ",
+   "t": "home"
+  },
+  {
+   "sa": "घटः",
+   "en": "pot",
+   "kn": "ಮಡಕೆ, ಕೊಡ",
+   "t": "home"
+  },
+  {
+   "sa": "चुल्ली",
+   "en": "stove",
+   "kn": "ಒಲೆ",
+   "t": "home"
+  },
+  {
+   "sa": "सोपानम्",
+   "en": "staircase",
+   "kn": "ಮೆಟ್ಟಿಲು",
+   "t": "home"
+  },
+  {
+   "sa": "अङ्गणम्",
+   "en": "courtyard",
+   "kn": "ಅಂಗಳ",
+   "t": "home"
+  },
+  {
+   "sa": "उद्यानम्",
+   "en": "garden",
+   "kn": "ತೋಟ",
+   "t": "home"
+  },
+  {
+   "sa": "छत्रम्",
+   "en": "umbrella",
+   "kn": "ಕೊಡೆ",
+   "t": "home"
+  },
+  {
+   "sa": "तारा",
+   "en": "star",
+   "kn": "ನಕ್ಷತ್ರ",
+   "t": "nature"
+  },
+  {
+   "sa": "आकाशः",
+   "en": "sky",
+   "kn": "ಆಕಾಶ",
+   "t": "nature",
+   "c": "sky"
+  },
+  {
+   "sa": "वृष्टिः",
+   "en": "rain",
+   "kn": "ಮಳೆ",
+   "t": "nature"
+  },
+  {
+   "sa": "पर्वतः",
+   "en": "mountain",
+   "kn": "ಬೆಟ್ಟ",
+   "t": "nature",
+   "c": "mountain"
+  },
+  {
+   "sa": "सरोवरः",
+   "en": "lake",
+   "kn": "ಸರೋವರ",
+   "t": "nature"
+  },
+  {
+   "sa": "वनम्",
+   "en": "forest",
+   "kn": "ಕಾಡು",
+   "t": "nature",
+   "c": "forest"
+  },
+  {
+   "sa": "पत्रम्",
+   "en": "leaf",
+   "kn": "ಎಲೆ",
+   "t": "nature"
+  },
+  {
+   "sa": "शाखा",
+   "en": "branch",
+   "kn": "ಕೊಂಬೆ",
+   "t": "nature"
+  },
+  {
+   "sa": "मूलम्",
+   "en": "root",
+   "kn": "ಬೇರು",
+   "t": "nature"
+  },
+  {
+   "sa": "बीजम्",
+   "en": "seed",
+   "kn": "ಬೀಜ",
+   "t": "nature"
+  },
+  {
+   "sa": "तृणम्",
+   "en": "grass",
+   "kn": "ಹುಲ್ಲು",
+   "t": "nature"
+  },
+  {
+   "sa": "शिला",
+   "en": "stone, rock",
+   "kn": "ಕಲ್ಲು",
+   "t": "nature"
+  },
+  {
+   "sa": "मृत्तिका",
+   "en": "soil, clay",
+   "kn": "ಮಣ್ಣು",
+   "t": "nature"
+  },
+  {
+   "sa": "हिमम्",
+   "en": "snow, frost",
+   "kn": "ಹಿಮ",
+   "t": "nature"
+  },
+  {
+   "sa": "विद्युत्",
+   "en": "lightning",
+   "kn": "ಮಿಂಚು",
+   "t": "nature",
+   "c": "lightning"
+  },
+  {
+   "sa": "कमलम्",
+   "en": "lotus",
+   "kn": "ಕಮಲ",
+   "t": "nature",
+   "c": "lotus"
+  },
+  {
+   "sa": "गौः",
+   "en": "cow",
+   "kn": "ಹಸು",
+   "t": "animals"
+  },
+  {
+   "sa": "वृषभः",
+   "en": "bull",
+   "kn": "ಎತ್ತು",
+   "t": "animals"
+  },
+  {
+   "sa": "महिषः",
+   "en": "buffalo",
+   "kn": "ಎಮ್ಮೆ, ಕೋಣ",
+   "t": "animals"
+  },
+  {
+   "sa": "कुक्कुरः",
+   "en": "dog",
+   "kn": "ನಾಯಿ",
+   "t": "animals"
+  },
+  {
+   "sa": "मार्जारः",
+   "en": "cat",
+   "kn": "ಬೆಕ್ಕು",
+   "t": "animals"
+  },
+  {
+   "sa": "मूषकः",
+   "en": "mouse",
+   "kn": "ಇಲಿ",
+   "t": "animals"
+  },
+  {
+   "sa": "शशकः",
+   "en": "rabbit, hare",
+   "kn": "ಮೊಲ",
+   "t": "animals"
+  },
+  {
+   "sa": "मृगः",
+   "en": "deer",
+   "kn": "ಜಿಂಕೆ",
+   "t": "animals",
+   "c": "deer"
+  },
+  {
+   "sa": "अजः",
+   "en": "goat",
+   "kn": "ಆಡು",
+   "t": "animals"
+  },
+  {
+   "sa": "मेषः",
+   "en": "sheep",
+   "kn": "ಕುರಿ",
+   "t": "animals"
+  },
+  {
+   "sa": "गर्दभः",
+   "en": "donkey",
+   "kn": "ಕತ್ತೆ",
+   "t": "animals"
+  },
+  {
+   "sa": "उष्ट्रः",
+   "en": "camel",
+   "kn": "ಒಂಟೆ",
+   "t": "animals"
+  },
+  {
+   "sa": "शृगालः",
+   "en": "jackal",
+   "kn": "ನರಿ",
+   "t": "animals"
+  },
+  {
+   "sa": "भल्लूकः",
+   "en": "bear",
+   "kn": "ಕರಡಿ",
+   "t": "animals"
+  },
+  {
+   "sa": "सर्पः",
+   "en": "snake",
+   "kn": "ಹಾವು",
+   "t": "animals",
+   "c": "snake"
+  },
+  {
+   "sa": "मत्स्यः",
+   "en": "fish",
+   "kn": "ಮೀನು",
+   "t": "animals"
+  },
+  {
+   "sa": "कूर्मः",
+   "en": "tortoise",
+   "kn": "ಆಮೆ",
+   "t": "animals"
+  },
+  {
+   "sa": "मण्डूकः",
+   "en": "frog",
+   "kn": "ಕಪ್ಪೆ",
+   "t": "animals"
+  },
+  {
+   "sa": "नकुलः",
+   "en": "mongoose",
+   "kn": "ಮುಂಗುಸಿ",
+   "t": "animals"
+  },
+  {
+   "sa": "मकरः",
+   "en": "crocodile",
+   "kn": "ಮೊಸಳೆ",
+   "t": "animals"
+  },
+  {
+   "sa": "वराहः",
+   "en": "boar",
+   "kn": "ಹಂದಿ",
+   "t": "animals"
+  },
+  {
+   "sa": "शुकः",
+   "en": "parrot",
+   "kn": "ಗಿಣಿ",
+   "t": "birds"
+  },
+  {
+   "sa": "मयूरः",
+   "en": "peacock",
+   "kn": "ನವಿಲು",
+   "t": "birds"
+  },
+  {
+   "sa": "हंसः",
+   "en": "swan",
+   "kn": "ಹಂಸ",
+   "t": "birds"
+  },
+  {
+   "sa": "कपोतः",
+   "en": "pigeon",
+   "kn": "ಪಾರಿವಾಳ",
+   "t": "birds"
+  },
+  {
+   "sa": "चटका",
+   "en": "sparrow",
+   "kn": "ಗುಬ್ಬಚ್ಚಿ",
+   "t": "birds"
+  },
+  {
+   "sa": "कोकिलः",
+   "en": "cuckoo",
+   "kn": "ಕೋಗಿಲೆ",
+   "t": "birds"
+  },
+  {
+   "sa": "बकः",
+   "en": "crane, stork",
+   "kn": "ಕೊಕ್ಕರೆ",
+   "t": "birds"
+  },
+  {
+   "sa": "उलूकः",
+   "en": "owl",
+   "kn": "ಗೂಬೆ",
+   "t": "birds"
+  },
+  {
+   "sa": "गरुडः",
+   "en": "eagle, Garuḍa",
+   "kn": "ಗರುಡ",
+   "t": "birds"
+  },
+  {
+   "sa": "कुक्कुटः",
+   "en": "rooster",
+   "kn": "ಹುಂಜ",
+   "t": "birds"
+  },
+  {
+   "sa": "पक्षी",
+   "en": "bird",
+   "kn": "ಹಕ್ಕಿ",
+   "t": "birds",
+   "c": "bird"
+  },
+  {
+   "sa": "पिपीलिका",
+   "en": "ant",
+   "kn": "ಇರುವೆ",
+   "t": "birds"
+  },
+  {
+   "sa": "मक्षिका",
+   "en": "fly",
+   "kn": "ನೊಣ",
+   "t": "birds"
+  },
+  {
+   "sa": "भ्रमरः",
+   "en": "bee",
+   "kn": "ದುಂಬಿ",
+   "t": "birds",
+   "c": "bee"
+  },
+  {
+   "sa": "चित्रपतङ्गः",
+   "en": "butterfly",
+   "kn": "ಚಿಟ್ಟೆ",
+   "t": "birds"
+  },
+  {
+   "sa": "मशकः",
+   "en": "mosquito",
+   "kn": "ಸೊಳ್ಳೆ",
+   "t": "birds"
+  },
+  {
+   "sa": "कर्कटः",
+   "en": "crab",
+   "kn": "ಏಡಿ",
+   "t": "birds"
+  },
+  {
+   "sa": "वृश्चिकः",
+   "en": "scorpion",
+   "kn": "ಚೇಳು",
+   "t": "birds"
+  },
+  {
+   "sa": "लूता",
+   "en": "spider",
+   "kn": "ಜೇಡ",
+   "t": "birds"
+  },
+  {
+   "sa": "रक्तः",
+   "en": "red",
+   "kn": "ಕೆಂಪು",
+   "t": "colours"
+  },
+  {
+   "sa": "नीलः",
+   "en": "blue",
+   "kn": "ನೀಲಿ",
+   "t": "colours"
+  },
+  {
+   "sa": "हरितः",
+   "en": "green",
+   "kn": "ಹಸಿರು",
+   "t": "colours"
+  },
+  {
+   "sa": "पीतः",
+   "en": "yellow",
+   "kn": "ಹಳದಿ",
+   "t": "colours"
+  },
+  {
+   "sa": "श्वेतः",
+   "en": "white",
+   "kn": "ಬಿಳಿ",
+   "t": "colours"
+  },
+  {
+   "sa": "कृष्णः",
+   "en": "black",
+   "kn": "ಕಪ್ಪು",
+   "t": "colours"
+  },
+  {
+   "sa": "पाटलः",
+   "en": "pink",
+   "kn": "ಗುಲಾಬಿ",
+   "t": "colours"
+  },
+  {
+   "sa": "धूसरः",
+   "en": "grey",
+   "kn": "ಬೂದು",
+   "t": "colours"
+  },
+  {
+   "sa": "कपिशः",
+   "en": "brown",
+   "kn": "ಕಂದು",
+   "t": "colours"
+  },
+  {
+   "sa": "नारङ्गवर्णः",
+   "en": "orange (colour)",
+   "kn": "ಕಿತ್ತಳೆ ಬಣ್ಣ",
+   "t": "colours"
+  },
+  {
+   "sa": "सुवर्णवर्णः",
+   "en": "golden",
+   "kn": "ಚಿನ್ನದ ಬಣ್ಣ",
+   "t": "colours"
+  },
+  {
+   "sa": "वर्णः",
+   "en": "colour",
+   "kn": "ಬಣ್ಣ",
+   "t": "colours"
+  },
+  {
+   "sa": "एकम्",
+   "en": "one",
+   "kn": "ಒಂದು",
+   "t": "numbers"
+  },
+  {
+   "sa": "द्वे",
+   "en": "two",
+   "kn": "ಎರಡು",
+   "t": "numbers"
+  },
+  {
+   "sa": "त्रीणि",
+   "en": "three",
+   "kn": "ಮೂರು",
+   "t": "numbers"
+  },
+  {
+   "sa": "चत्वारि",
+   "en": "four",
+   "kn": "ನಾಲ್ಕು",
+   "t": "numbers"
+  },
+  {
+   "sa": "पञ्च",
+   "en": "five",
+   "kn": "ಐದು",
+   "t": "numbers"
+  },
+  {
+   "sa": "षट्",
+   "en": "six",
+   "kn": "ಆರು",
+   "t": "numbers"
+  },
+  {
+   "sa": "सप्त",
+   "en": "seven",
+   "kn": "ಏಳು",
+   "t": "numbers"
+  },
+  {
+   "sa": "अष्ट",
+   "en": "eight",
+   "kn": "ಎಂಟು",
+   "t": "numbers"
+  },
+  {
+   "sa": "नव",
+   "en": "nine",
+   "kn": "ಒಂಬತ್ತು",
+   "t": "numbers"
+  },
+  {
+   "sa": "दश",
+   "en": "ten",
+   "kn": "ಹತ್ತು",
+   "t": "numbers"
+  },
+  {
+   "sa": "एकादश",
+   "en": "eleven",
+   "kn": "ಹನ್ನೊಂದು",
+   "t": "numbers"
+  },
+  {
+   "sa": "द्वादश",
+   "en": "twelve",
+   "kn": "ಹನ್ನೆರಡು",
+   "t": "numbers"
+  },
+  {
+   "sa": "विंशतिः",
+   "en": "twenty",
+   "kn": "ಇಪ್ಪತ್ತು",
+   "t": "numbers"
+  },
+  {
+   "sa": "त्रिंशत्",
+   "en": "thirty",
+   "kn": "ಮೂವತ್ತು",
+   "t": "numbers"
+  },
+  {
+   "sa": "चत्वारिंशत्",
+   "en": "forty",
+   "kn": "ನಲವತ್ತು",
+   "t": "numbers"
+  },
+  {
+   "sa": "पञ्चाशत्",
+   "en": "fifty",
+   "kn": "ಐವತ್ತು",
+   "t": "numbers"
+  },
+  {
+   "sa": "शतम्",
+   "en": "hundred",
+   "kn": "ನೂರು",
+   "t": "numbers"
+  },
+  {
+   "sa": "सहस्रम्",
+   "en": "thousand",
+   "kn": "ಸಾವಿರ",
+   "t": "numbers"
+  },
+  {
+   "sa": "लक्षम्",
+   "en": "lakh",
+   "kn": "ಲಕ್ಷ",
+   "t": "numbers"
+  },
+  {
+   "sa": "कोटिः",
+   "en": "crore",
+   "kn": "ಕೋಟಿ",
+   "t": "numbers"
+  },
+  {
+   "sa": "प्रथमः",
+   "en": "first",
+   "kn": "ಮೊದಲನೆಯ",
+   "t": "numbers"
+  },
+  {
+   "sa": "द्वितीयः",
+   "en": "second",
+   "kn": "ಎರಡನೆಯ",
+   "t": "numbers"
+  },
+  {
+   "sa": "तृतीयः",
+   "en": "third",
+   "kn": "ಮೂರನೆಯ",
+   "t": "numbers"
+  },
+  {
+   "sa": "अर्धम्",
+   "en": "half",
+   "kn": "ಅರ್ಧ",
+   "t": "numbers"
+  },
+  {
+   "sa": "दिनम्",
+   "en": "day",
+   "kn": "ದಿನ",
+   "t": "time",
+   "c": "day"
+  },
+  {
+   "sa": "रात्रिः",
+   "en": "night",
+   "kn": "ರಾತ್ರಿ",
+   "t": "time",
+   "c": "night"
+  },
+  {
+   "sa": "मध्याह्नः",
+   "en": "noon",
+   "kn": "ಮಧ್ಯಾಹ್ನ",
+   "t": "time"
+  },
+  {
+   "sa": "परश्वः",
+   "en": "day after tomorrow",
+   "kn": "ನಾಡಿದ್ದು",
+   "t": "time"
+  },
+  {
+   "sa": "सप्ताहः",
+   "en": "week",
+   "kn": "ವಾರ",
+   "t": "time"
+  },
+  {
+   "sa": "मासः",
+   "en": "month",
+   "kn": "ತಿಂಗಳು",
+   "t": "time"
+  },
+  {
+   "sa": "वर्षम्",
+   "en": "year",
+   "kn": "ವರ್ಷ",
+   "t": "time"
+  },
+  {
+   "sa": "होरा",
+   "en": "hour",
+   "kn": "ಗಂಟೆ",
+   "t": "time"
+  },
+  {
+   "sa": "निमेषः",
+   "en": "minute, moment",
+   "kn": "ನಿಮಿಷ",
+   "t": "time"
+  },
+  {
+   "sa": "भानुवासरः",
+   "en": "Sunday",
+   "kn": "ಭಾನುವಾರ",
+   "t": "time"
+  },
+  {
+   "sa": "सोमवासरः",
+   "en": "Monday",
+   "kn": "ಸೋಮವಾರ",
+   "t": "time"
+  },
+  {
+   "sa": "मङ्गलवासरः",
+   "en": "Tuesday",
+   "kn": "ಮಂಗಳವಾರ",
+   "t": "time"
+  },
+  {
+   "sa": "बुधवासरः",
+   "en": "Wednesday",
+   "kn": "ಬುಧವಾರ",
+   "t": "time"
+  },
+  {
+   "sa": "गुरुवासरः",
+   "en": "Thursday",
+   "kn": "ಗುರುವಾರ",
+   "t": "time"
+  },
+  {
+   "sa": "शुक्रवासरः",
+   "en": "Friday",
+   "kn": "ಶುಕ್ರವಾರ",
+   "t": "time"
+  },
+  {
+   "sa": "शनिवासरः",
+   "en": "Saturday",
+   "kn": "ಶನಿವಾರ",
+   "t": "time"
+  },
+  {
+   "sa": "वसन्तः",
+   "en": "spring",
+   "kn": "ವಸಂತ",
+   "t": "time"
+  },
+  {
+   "sa": "ग्रीष्मः",
+   "en": "summer",
+   "kn": "ಬೇಸಿಗೆ",
+   "t": "time"
+  },
+  {
+   "sa": "वर्षाः",
+   "en": "rainy season",
+   "kn": "ಮಳೆಗಾಲ",
+   "t": "time"
+  },
+  {
+   "sa": "शीतकालः",
+   "en": "winter",
+   "kn": "ಚಳಿಗಾಲ",
+   "t": "time"
+  },
+  {
+   "sa": "समयः",
+   "en": "time",
+   "kn": "ಸಮಯ",
+   "t": "time"
+  },
+  {
+   "sa": "मार्गः",
+   "en": "road, way",
+   "kn": "ದಾರಿ",
+   "t": "town"
+  },
+  {
+   "sa": "विपणिः",
+   "en": "market",
+   "kn": "ಮಾರುಕಟ್ಟೆ",
+   "t": "town"
+  },
+  {
+   "sa": "चिकित्सालयः",
+   "en": "hospital",
+   "kn": "ಆಸ್ಪತ್ರೆ",
+   "t": "town"
+  },
+  {
+   "sa": "विद्यालयः",
+   "en": "school",
+   "kn": "ಶಾಲೆ",
+   "t": "town"
+  },
+  {
+   "sa": "ग्रन्थालयः",
+   "en": "library",
+   "kn": "ಗ್ರಂಥಾಲಯ",
+   "t": "town"
+  },
+  {
+   "sa": "कार्यालयः",
+   "en": "office",
+   "kn": "ಕಚೇರಿ",
+   "t": "town"
+  },
+  {
+   "sa": "वित्तकोशः",
+   "en": "bank",
+   "kn": "ಬ್ಯಾಂಕ್",
+   "t": "town"
+  },
+  {
+   "sa": "उपाहारगृहम्",
+   "en": "restaurant, hotel",
+   "kn": "ಹೋಟೆಲ್",
+   "t": "town"
+  },
+  {
+   "sa": "रेलयानम्",
+   "en": "train",
+   "kn": "ರೈಲು",
+   "t": "town"
+  },
+  {
+   "sa": "लोकयानम्",
+   "en": "bus",
+   "kn": "ಬಸ್",
+   "t": "town"
+  },
+  {
+   "sa": "यानम्",
+   "en": "vehicle",
+   "kn": "ವಾಹನ",
+   "t": "town"
+  },
+  {
+   "sa": "द्विचक्रिका",
+   "en": "bicycle",
+   "kn": "ಸೈಕಲ್",
+   "t": "town"
+  },
+  {
+   "sa": "विमानम्",
+   "en": "aeroplane",
+   "kn": "ವಿಮಾನ",
+   "t": "town"
+  },
+  {
+   "sa": "नौका",
+   "en": "boat",
+   "kn": "ದೋಣಿ",
+   "t": "town"
+  },
+  {
+   "sa": "सेतुः",
+   "en": "bridge",
+   "kn": "ಸೇತುವೆ",
+   "t": "town"
+  },
+  {
+   "sa": "स्थानकम्",
+   "en": "station",
+   "kn": "ನಿಲ್ದಾಣ",
+   "t": "town"
+  },
+  {
+   "sa": "चित्रमन्दिरम्",
+   "en": "cinema hall",
+   "kn": "ಚಿತ್ರಮಂದಿರ",
+   "t": "town"
+  },
+  {
+   "sa": "क्रीडाङ्गणम्",
+   "en": "playground",
+   "kn": "ಆಟದ ಮೈದಾನ",
+   "t": "town"
+  },
+  {
+   "sa": "वामभागः",
+   "en": "left side",
+   "kn": "ಎಡಭಾಗ",
+   "t": "town"
+  },
+  {
+   "sa": "दक्षिणभागः",
+   "en": "right side",
+   "kn": "ಬಲಭಾಗ",
+   "t": "town"
+  },
+  {
+   "sa": "शिक्षकः",
+   "en": "teacher",
+   "kn": "ಶಿಕ್ಷಕ",
+   "t": "people"
+  },
+  {
+   "sa": "वैद्यः",
+   "en": "doctor",
+   "kn": "ವೈದ್ಯ",
+   "t": "people"
+  },
+  {
+   "sa": "कृषकः",
+   "en": "farmer",
+   "kn": "ರೈತ",
+   "t": "people"
+  },
+  {
+   "sa": "वणिक्",
+   "en": "merchant",
+   "kn": "ವ್ಯಾಪಾರಿ",
+   "t": "people"
+  },
+  {
+   "sa": "आपणिकः",
+   "en": "shopkeeper",
+   "kn": "ಅಂಗಡಿಯವನು",
+   "t": "people"
+  },
+  {
+   "sa": "रजकः",
+   "en": "washerman",
+   "kn": "ಅಗಸ",
+   "t": "people"
+  },
+  {
+   "sa": "कुम्भकारः",
+   "en": "potter",
+   "kn": "ಕುಂಬಾರ",
+   "t": "people"
+  },
+  {
+   "sa": "सौचिकः",
+   "en": "tailor",
+   "kn": "ದರ್ಜಿ",
+   "t": "people"
+  },
+  {
+   "sa": "चालकः",
+   "en": "driver",
+   "kn": "ಚಾಲಕ",
+   "t": "people"
+  },
+  {
+   "sa": "आरक्षकः",
+   "en": "policeman",
+   "kn": "ಪೊಲೀಸ್",
+   "t": "people"
+  },
+  {
+   "sa": "सैनिकः",
+   "en": "soldier",
+   "kn": "ಸೈನಿಕ",
+   "t": "people"
+  },
+  {
+   "sa": "राजा",
+   "en": "king",
+   "kn": "ರಾಜ",
+   "t": "people",
+   "c": "king"
+  },
+  {
+   "sa": "मन्त्री",
+   "en": "minister",
+   "kn": "ಮಂತ್ರಿ",
+   "t": "people"
+  },
+  {
+   "sa": "पाचकः",
+   "en": "cook",
+   "kn": "ಅಡುಗೆಯವನು",
+   "t": "people"
+  },
+  {
+   "sa": "लेखकः",
+   "en": "writer, clerk",
+   "kn": "ಲೇಖಕ",
+   "t": "people"
+  },
+  {
+   "sa": "गायकः",
+   "en": "singer",
+   "kn": "ಗಾಯಕ",
+   "t": "people"
+  },
+  {
+   "sa": "अर्चकः",
+   "en": "temple priest",
+   "kn": "ಅರ್ಚಕ",
+   "t": "people"
+  },
+  {
+   "sa": "सेवकः",
+   "en": "servant, helper",
+   "kn": "ಸೇವಕ",
+   "t": "people"
+  },
+  {
+   "sa": "ग्राहकः",
+   "en": "customer",
+   "kn": "ಗ್ರಾಹಕ",
+   "t": "people"
+  },
+  {
+   "sa": "कर्मकरः",
+   "en": "worker",
+   "kn": "ಕೆಲಸಗಾರ",
+   "t": "people"
+  },
+  {
+   "sa": "अभियन्ता",
+   "en": "engineer",
+   "kn": "ಇಂಜಿನಿಯರ್",
+   "t": "people"
+  },
+  {
+   "sa": "न्यायाधीशः",
+   "en": "judge",
+   "kn": "ನ್ಯಾಯಾಧೀಶ",
+   "t": "people"
+  },
+  {
+   "sa": "युतकम्",
+   "en": "shirt",
+   "kn": "ಅಂಗಿ",
+   "t": "clothes"
+  },
+  {
+   "sa": "शाटिका",
+   "en": "saree",
+   "kn": "ಸೀರೆ",
+   "t": "clothes"
+  },
+  {
+   "sa": "अधोवस्त्रम्",
+   "en": "dhoti, lower garment",
+   "kn": "ಪಂಚೆ",
+   "t": "clothes"
+  },
+  {
+   "sa": "उत्तरीयम्",
+   "en": "upper cloth, shawl",
+   "kn": "ಉತ್ತರೀಯ",
+   "t": "clothes"
+  },
+  {
+   "sa": "ऊरुकम्",
+   "en": "trousers",
+   "kn": "ಪ್ಯಾಂಟ್",
+   "t": "clothes"
+  },
+  {
+   "sa": "पादत्राणम्",
+   "en": "footwear",
+   "kn": "ಚಪ್ಪಲಿ",
+   "t": "clothes"
+  },
+  {
+   "sa": "उपनेत्रम्",
+   "en": "spectacles",
+   "kn": "ಕನ್ನಡಕ",
+   "t": "clothes"
+  },
+  {
+   "sa": "उष्णीषम्",
+   "en": "turban, cap",
+   "kn": "ಪೇಟ",
+   "t": "clothes"
+  },
+  {
+   "sa": "कञ्चुकः",
+   "en": "blouse, jacket",
+   "kn": "ರವಿಕೆ",
+   "t": "clothes"
+  },
+  {
+   "sa": "कण्ठहारः",
+   "en": "necklace",
+   "kn": "ಹಾರ",
+   "t": "clothes"
+  },
+  {
+   "sa": "अङ्गुलीयकम्",
+   "en": "ring",
+   "kn": "ಉಂಗುರ",
+   "t": "clothes"
+  },
+  {
+   "sa": "कङ्कणम्",
+   "en": "bangle",
+   "kn": "ಬಳೆ",
+   "t": "clothes"
+  },
+  {
+   "sa": "कुण्डलम्",
+   "en": "earring",
+   "kn": "ಓಲೆ",
+   "t": "clothes"
+  },
+  {
+   "sa": "सूत्रम्",
+   "en": "thread",
+   "kn": "ದಾರ",
+   "t": "clothes"
+  },
+  {
+   "sa": "सूचिः",
+   "en": "needle",
+   "kn": "ಸೂಜಿ",
+   "t": "clothes"
+  },
+  {
+   "sa": "करवस्त्रम्",
+   "en": "handkerchief",
+   "kn": "ಕರವಸ್ತ್ರ",
+   "t": "clothes"
+  },
+  {
+   "sa": "अङ्कनी",
+   "en": "pencil",
+   "kn": "ಪೆನ್ಸಿಲ್",
+   "t": "study"
+  },
+  {
+   "sa": "कर्गदम्",
+   "en": "paper",
+   "kn": "ಕಾಗದ",
+   "t": "study"
+  },
+  {
+   "sa": "पाठः",
+   "en": "lesson",
+   "kn": "ಪಾಠ",
+   "t": "study"
+  },
+  {
+   "sa": "प्रश्नः",
+   "en": "question",
+   "kn": "ಪ್ರಶ್ನೆ",
+   "t": "study"
+  },
+  {
+   "sa": "उत्तरम्",
+   "en": "answer",
+   "kn": "ಉತ್ತರ",
+   "t": "study"
+  },
+  {
+   "sa": "परीक्षा",
+   "en": "exam",
+   "kn": "ಪರೀಕ್ಷೆ",
+   "t": "study"
+  },
+  {
+   "sa": "अक्षरम्",
+   "en": "letter (of alphabet)",
+   "kn": "ಅಕ್ಷರ",
+   "t": "study"
+  },
+  {
+   "sa": "शब्दः",
+   "en": "word",
+   "kn": "ಶಬ್ದ, ಪದ",
+   "t": "study"
+  },
+  {
+   "sa": "वाक्यम्",
+   "en": "sentence",
+   "kn": "ವಾಕ್ಯ",
+   "t": "study"
+  },
+  {
+   "sa": "भाषा",
+   "en": "language",
+   "kn": "ಭಾಷೆ",
+   "t": "study"
+  },
+  {
+   "sa": "विद्या",
+   "en": "knowledge",
+   "kn": "ವಿದ್ಯೆ",
+   "t": "study"
+  },
+  {
+   "sa": "शिष्यः",
+   "en": "disciple",
+   "kn": "ಶಿಷ್ಯ",
+   "t": "study"
+  },
+  {
+   "sa": "कथा",
+   "en": "story",
+   "kn": "ಕಥೆ",
+   "t": "study"
+  },
+  {
+   "sa": "श्लोकः",
+   "en": "verse",
+   "kn": "ಶ್ಲೋಕ",
+   "t": "study"
+  },
+  {
+   "sa": "अर्थः",
+   "en": "meaning",
+   "kn": "ಅರ್ಥ",
+   "t": "study",
+   "c": "wealth"
+  },
+  {
+   "sa": "व्याकरणम्",
+   "en": "grammar",
+   "kn": "ವ್ಯಾಕರಣ",
+   "t": "study"
+  },
+  {
+   "sa": "कृष्णफलकम्",
+   "en": "blackboard",
+   "kn": "ಕರಿಹಲಗೆ",
+   "t": "study"
+  },
+  {
+   "sa": "स्यूतः",
+   "en": "bag",
+   "kn": "ಚೀಲ",
+   "t": "study"
+  },
+  {
+   "sa": "मसी",
+   "en": "ink",
+   "kn": "ಶಾಯಿ",
+   "t": "study"
+  },
+  {
+   "sa": "गणितम्",
+   "en": "mathematics",
+   "kn": "ಗಣಿತ",
+   "t": "study"
+  },
+  {
+   "sa": "दूरवाणी",
+   "en": "telephone",
+   "kn": "ದೂರವಾಣಿ",
+   "t": "modern"
+  },
+  {
+   "sa": "चलदूरवाणी",
+   "en": "mobile phone",
+   "kn": "ಮೊಬೈಲ್",
+   "t": "modern"
+  },
+  {
+   "sa": "सङ्गणकम्",
+   "en": "computer",
+   "kn": "ಕಂಪ್ಯೂಟರ್",
+   "t": "modern"
+  },
+  {
+   "sa": "दूरदर्शनम्",
+   "en": "television",
+   "kn": "ದೂರದರ್ಶನ",
+   "t": "modern"
+  },
+  {
+   "sa": "आकाशवाणी",
+   "en": "radio",
+   "kn": "ಆಕಾಶವಾಣಿ",
+   "t": "modern"
+  },
+  {
+   "sa": "घटी",
+   "en": "clock, watch",
+   "kn": "ಗಡಿಯಾರ",
+   "t": "modern"
+  },
+  {
+   "sa": "व्यजनम्",
+   "en": "fan",
+   "kn": "ಫ್ಯಾನ್",
+   "t": "modern"
+  },
+  {
+   "sa": "विद्युद्दीपः",
+   "en": "electric light",
+   "kn": "ವಿದ್ಯುದ್ದೀಪ",
+   "t": "modern"
+  },
+  {
+   "sa": "शीतकम्",
+   "en": "refrigerator",
+   "kn": "ಫ್ರಿಜ್",
+   "t": "modern"
+  },
+  {
+   "sa": "यन्त्रम्",
+   "en": "machine",
+   "kn": "ಯಂತ್ರ",
+   "t": "modern"
+  },
+  {
+   "sa": "चित्रम्",
+   "en": "picture, photo",
+   "kn": "ಚಿತ್ರ",
+   "t": "modern"
+  },
+  {
+   "sa": "वार्तापत्रिका",
+   "en": "newspaper",
+   "kn": "ವಾರ್ತಾಪತ್ರಿಕೆ",
+   "t": "modern"
+  },
+  {
+   "sa": "अन्तर्जालम्",
+   "en": "internet",
+   "kn": "ಅಂತರ್ಜಾಲ",
+   "t": "modern"
+  },
+  {
+   "sa": "कारयानम्",
+   "en": "car",
+   "kn": "ಕಾರು",
+   "t": "modern"
+  },
+  {
+   "sa": "धनादेशः",
+   "en": "cheque",
+   "kn": "ಚೆಕ್",
+   "t": "modern"
+  },
+  {
+   "sa": "महान्",
+   "en": "big, great",
+   "kn": "ದೊಡ್ಡ",
+   "t": "quality"
+  },
+  {
+   "sa": "लघुः",
+   "en": "small, light",
+   "kn": "ಚಿಕ್ಕ, ಹಗುರ",
+   "t": "quality"
+  },
+  {
+   "sa": "दीर्घः",
+   "en": "long",
+   "kn": "ಉದ್ದ",
+   "t": "quality"
+  },
+  {
+   "sa": "ह्रस्वः",
+   "en": "short",
+   "kn": "ಗಿಡ್ಡ",
+   "t": "quality"
+  },
+  {
+   "sa": "नूतनः",
+   "en": "new",
+   "kn": "ಹೊಸ",
+   "t": "quality"
+  },
+  {
+   "sa": "पुरातनः",
+   "en": "old",
+   "kn": "ಹಳೆಯ",
+   "t": "quality"
+  },
+  {
+   "sa": "उष्णः",
+   "en": "hot",
+   "kn": "ಬಿಸಿ",
+   "t": "quality"
+  },
+  {
+   "sa": "शीतः",
+   "en": "cold",
+   "kn": "ತಣ್ಣಗಿನ",
+   "t": "quality"
+  },
+  {
+   "sa": "मधुरः",
+   "en": "sweet",
+   "kn": "ಸಿಹಿ",
+   "t": "quality"
+  },
+  {
+   "sa": "कटुः",
+   "en": "pungent, bitter",
+   "kn": "ಖಾರ, ಕಹಿ",
+   "t": "quality"
+  },
+  {
+   "sa": "अम्लः",
+   "en": "sour",
+   "kn": "ಹುಳಿ",
+   "t": "quality"
+  },
+  {
+   "sa": "सुन्दरः",
+   "en": "beautiful",
+   "kn": "ಸುಂದರ",
+   "t": "quality"
+  },
+  {
+   "sa": "शुद्धः",
+   "en": "clean, pure",
+   "kn": "ಶುದ್ಧ",
+   "t": "quality"
+  },
+  {
+   "sa": "मलिनः",
+   "en": "dirty",
+   "kn": "ಕೊಳಕು",
+   "t": "quality"
+  },
+  {
+   "sa": "सरलः",
+   "en": "easy, straight",
+   "kn": "ಸುಲಭ",
+   "t": "quality"
+  },
+  {
+   "sa": "कठिनः",
+   "en": "hard, difficult",
+   "kn": "ಕಠಿಣ",
+   "t": "quality"
+  },
+  {
+   "sa": "बलवान्",
+   "en": "strong",
+   "kn": "ಬಲಶಾಲಿ",
+   "t": "quality"
+  },
+  {
+   "sa": "दुर्बलः",
+   "en": "weak",
+   "kn": "ದುರ್ಬಲ",
+   "t": "quality"
+  },
+  {
+   "sa": "धनिकः",
+   "en": "rich",
+   "kn": "ಶ್ರೀಮಂತ",
+   "t": "quality"
+  },
+  {
+   "sa": "निर्धनः",
+   "en": "poor",
+   "kn": "ಬಡವ",
+   "t": "quality"
+  },
+  {
+   "sa": "चतुरः",
+   "en": "clever",
+   "kn": "ಚತುರ",
+   "t": "quality"
+  },
+  {
+   "sa": "मूर्खः",
+   "en": "foolish",
+   "kn": "ಮೂರ್ಖ",
+   "t": "quality"
+  },
+  {
+   "sa": "शीघ्रः",
+   "en": "fast",
+   "kn": "ವೇಗದ",
+   "t": "quality"
+  },
+  {
+   "sa": "मन्दः",
+   "en": "slow",
+   "kn": "ನಿಧಾನ",
+   "t": "quality"
+  },
+  {
+   "sa": "प्रियः",
+   "en": "dear",
+   "kn": "ಪ್ರಿಯ",
+   "t": "quality"
+  },
+  {
+   "sa": "समीपः",
+   "en": "near",
+   "kn": "ಹತ್ತಿರ",
+   "t": "quality"
+  },
+  {
+   "sa": "गच्छति",
+   "en": "goes",
+   "kn": "ಹೋಗುತ್ತಾನೆ",
+   "t": "verbs"
+  },
+  {
+   "sa": "आगच्छति",
+   "en": "comes",
+   "kn": "ಬರುತ್ತಾನೆ",
+   "t": "verbs"
+  },
+  {
+   "sa": "खादति",
+   "en": "eats",
+   "kn": "ತಿನ್ನುತ್ತಾನೆ",
+   "t": "verbs"
+  },
+  {
+   "sa": "पिबति",
+   "en": "drinks",
+   "kn": "ಕುಡಿಯುತ್ತಾನೆ",
+   "t": "verbs"
+  },
+  {
+   "sa": "पठति",
+   "en": "reads, studies",
+   "kn": "ಓದುತ್ತಾನೆ",
+   "t": "verbs"
+  },
+  {
+   "sa": "लिखति",
+   "en": "writes",
+   "kn": "ಬರೆಯುತ್ತಾನೆ",
+   "t": "verbs"
+  },
+  {
+   "sa": "वदति",
+   "en": "speaks",
+   "kn": "ಹೇಳುತ್ತಾನೆ",
+   "t": "verbs"
+  },
+  {
+   "sa": "पश्यति",
+   "en": "sees",
+   "kn": "ನೋಡುತ್ತಾನೆ",
+   "t": "verbs"
+  },
+  {
+   "sa": "शृणोति",
+   "en": "hears",
+   "kn": "ಕೇಳುತ್ತಾನೆ",
+   "t": "verbs"
+  },
+  {
+   "sa": "करोति",
+   "en": "does",
+   "kn": "ಮಾಡುತ್ತಾನೆ",
+   "t": "verbs"
+  },
+  {
+   "sa": "ददाति",
+   "en": "gives",
+   "kn": "ಕೊಡುತ್ತಾನೆ",
+   "t": "verbs"
+  },
+  {
+   "sa": "स्वीकरोति",
+   "en": "accepts, takes",
+   "kn": "ಸ್ವೀಕರಿಸುತ್ತಾನೆ",
+   "t": "verbs"
+  },
+  {
+   "sa": "उपविशति",
+   "en": "sits",
+   "kn": "ಕುಳಿತುಕೊಳ್ಳುತ್ತಾನೆ",
+   "t": "verbs"
+  },
+  {
+   "sa": "उत्तिष्ठति",
+   "en": "gets up",
+   "kn": "ಏಳುತ್ತಾನೆ",
+   "t": "verbs"
+  },
+  {
+   "sa": "स्वपिति",
+   "en": "sleeps",
+   "kn": "ಮಲಗುತ್ತಾನೆ",
+   "t": "verbs"
+  },
+  {
+   "sa": "धावति",
+   "en": "runs",
+   "kn": "ಓಡುತ್ತಾನೆ",
+   "t": "verbs"
+  },
+  {
+   "sa": "क्रीडति",
+   "en": "plays",
+   "kn": "ಆಡುತ್ತಾನೆ",
+   "t": "verbs"
+  },
+  {
+   "sa": "हसति",
+   "en": "laughs",
+   "kn": "ನಗುತ್ತಾನೆ",
+   "t": "verbs"
+  },
+  {
+   "sa": "रोदिति",
+   "en": "cries",
+   "kn": "ಅಳುತ್ತಾನೆ",
+   "t": "verbs"
+  },
+  {
+   "sa": "पचति",
+   "en": "cooks",
+   "kn": "ಅಡುಗೆ ಮಾಡುತ್ತಾನೆ",
+   "t": "verbs"
+  },
+  {
+   "sa": "क्रीणाति",
+   "en": "buys",
+   "kn": "ಕೊಳ್ಳುತ್ತಾನೆ",
+   "t": "verbs"
+  },
+  {
+   "sa": "विक्रीणाति",
+   "en": "sells",
+   "kn": "ಮಾರುತ್ತಾನೆ",
+   "t": "verbs"
+  },
+  {
+   "sa": "जानाति",
+   "en": "knows",
+   "kn": "ತಿಳಿದಿದ್ದಾನೆ",
+   "t": "verbs"
+  },
+  {
+   "sa": "स्मरति",
+   "en": "remembers",
+   "kn": "ನೆನಪಿಸಿಕೊಳ್ಳುತ್ತಾನೆ",
+   "t": "verbs"
+  },
+  {
+   "sa": "पृच्छति",
+   "en": "asks",
+   "kn": "ಕೇಳುತ್ತಾನೆ (ಪ್ರಶ್ನೆ)",
+   "t": "verbs"
+  },
+  {
+   "sa": "आनयति",
+   "en": "brings",
+   "kn": "ತರುತ್ತಾನೆ",
+   "t": "verbs"
+  },
+  {
+   "sa": "नयति",
+   "en": "takes, leads",
+   "kn": "ಕೊಂಡೊಯ್ಯುತ್ತಾನೆ",
+   "t": "verbs"
+  },
+  {
+   "sa": "प्रक्षालयति",
+   "en": "washes",
+   "kn": "ತೊಳೆಯುತ್ತಾನೆ",
+   "t": "verbs"
+  },
+  {
+   "sa": "स्नाति",
+   "en": "bathes",
+   "kn": "ಸ್ನಾನ ಮಾಡುತ್ತಾನೆ",
+   "t": "verbs"
+  },
+  {
+   "sa": "इच्छति",
+   "en": "wants",
+   "kn": "ಬಯಸುತ್ತಾನೆ",
+   "t": "verbs"
+  },
+  {
+   "sa": "किमर्थम्",
+   "en": "why?",
+   "kn": "ಏಕೆ?",
+   "t": "small"
+  },
+  {
+   "sa": "कः",
+   "en": "who? (m.)",
+   "kn": "ಯಾರು? (ಪು.)",
+   "t": "small"
+  },
+  {
+   "sa": "का",
+   "en": "who? (f.)",
+   "kn": "ಯಾರು? (ಸ್ತ್ರೀ.)",
+   "t": "small"
+  },
+  {
+   "sa": "कति",
+   "en": "how many?",
+   "kn": "ಎಷ್ಟು?",
+   "t": "small"
+  },
+  {
+   "sa": "अपि",
+   "en": "also",
+   "kn": "ಕೂಡ",
+   "t": "small"
+  },
+  {
+   "sa": "च",
+   "en": "and",
+   "kn": "ಮತ್ತು",
+   "t": "small"
+  },
+  {
+   "sa": "वा",
+   "en": "or",
+   "kn": "ಅಥವಾ",
+   "t": "small"
+  },
+  {
+   "sa": "इदानीम्",
+   "en": "now",
+   "kn": "ಈಗ",
+   "t": "small"
+  },
+  {
+   "sa": "पुनः",
+   "en": "again",
+   "kn": "ಮತ್ತೆ",
+   "t": "small"
+  },
+  {
+   "sa": "सर्वदा",
+   "en": "always",
+   "kn": "ಯಾವಾಗಲೂ",
+   "t": "small"
+  },
+  {
+   "sa": "कदापि न",
+   "en": "never",
+   "kn": "ಎಂದೂ ಇಲ್ಲ",
+   "t": "small"
+  },
+  {
+   "sa": "बहिः",
+   "en": "outside",
+   "kn": "ಹೊರಗೆ",
+   "t": "small"
+  },
+  {
+   "sa": "अन्तः",
+   "en": "inside",
+   "kn": "ಒಳಗೆ",
+   "t": "small"
+  },
+  {
+   "sa": "उपरि",
+   "en": "above",
+   "kn": "ಮೇಲೆ",
+   "t": "small"
+  },
+  {
+   "sa": "अधः",
+   "en": "below",
+   "kn": "ಕೆಳಗೆ",
+   "t": "small"
+  },
+  {
+   "sa": "पुरतः",
+   "en": "in front",
+   "kn": "ಮುಂದೆ",
+   "t": "small"
+  },
+  {
+   "sa": "पृष्ठतः",
+   "en": "behind",
+   "kn": "ಹಿಂದೆ",
+   "t": "small"
+  },
+  {
+   "sa": "सह",
+   "en": "with",
+   "kn": "ಜೊತೆ",
+   "t": "small"
+  },
+  {
+   "sa": "विना",
+   "en": "without",
+   "kn": "ಇಲ್ಲದೆ",
+   "t": "small"
+  },
+  {
+   "sa": "धन्यवादः",
+   "en": "thank you",
+   "kn": "ಧನ್ಯವಾದ",
+   "t": "small"
+  },
+  {
+   "sa": "सुखम्",
+   "en": "happiness",
+   "kn": "ಸುಖ",
+   "t": "feel"
+  },
+  {
+   "sa": "दुःखम्",
+   "en": "sorrow",
+   "kn": "ದುಃಖ",
+   "t": "feel"
+  },
+  {
+   "sa": "हर्षः",
+   "en": "joy",
+   "kn": "ಹರ್ಷ",
+   "t": "feel"
+  },
+  {
+   "sa": "क्रोधः",
+   "en": "anger",
+   "kn": "ಕೋಪ",
+   "t": "feel"
+  },
+  {
+   "sa": "भयम्",
+   "en": "fear",
+   "kn": "ಭಯ",
+   "t": "feel"
+  },
+  {
+   "sa": "प्रेम",
+   "en": "love",
+   "kn": "ಪ್ರೀತಿ",
+   "t": "feel"
+  },
+  {
+   "sa": "स्नेहः",
+   "en": "affection",
+   "kn": "ಸ್ನೇಹ, ಪ್ರೀತಿ",
+   "t": "feel"
+  },
+  {
+   "sa": "लज्जा",
+   "en": "shyness, shame",
+   "kn": "ನಾಚಿಕೆ",
+   "t": "feel"
+  },
+  {
+   "sa": "आश्चर्यम्",
+   "en": "surprise",
+   "kn": "ಆಶ್ಚರ್ಯ",
+   "t": "feel"
+  },
+  {
+   "sa": "चिन्ता",
+   "en": "worry",
+   "kn": "ಚಿಂತೆ",
+   "t": "feel"
+  },
+  {
+   "sa": "शान्तिः",
+   "en": "peace",
+   "kn": "ಶಾಂತಿ",
+   "t": "feel"
+  },
+  {
+   "sa": "धैर्यम्",
+   "en": "courage",
+   "kn": "ಧೈರ್ಯ",
+   "t": "feel"
+  },
+  {
+   "sa": "दया",
+   "en": "compassion",
+   "kn": "ದಯೆ",
+   "t": "feel"
+  },
+  {
+   "sa": "श्रद्धा",
+   "en": "faith",
+   "kn": "ಶ್ರದ್ಧೆ",
+   "t": "feel"
+  },
+  {
+   "sa": "भक्तिः",
+   "en": "devotion",
+   "kn": "ಭಕ್ತಿ",
+   "t": "feel"
+  },
+  {
+   "sa": "ईर्ष्या",
+   "en": "jealousy",
+   "kn": "ಅಸೂಯೆ",
+   "t": "feel"
+  },
+  {
+   "sa": "लोभः",
+   "en": "greed",
+   "kn": "ಲೋಭ",
+   "t": "feel"
+  },
+  {
+   "sa": "आलस्यम्",
+   "en": "laziness",
+   "kn": "ಸೋಮಾರಿತನ",
+   "t": "feel"
+  },
+  {
+   "sa": "उत्साहः",
+   "en": "enthusiasm",
+   "kn": "ಉತ್ಸಾಹ",
+   "t": "feel"
+  },
+  {
+   "sa": "तृष्णा",
+   "en": "thirst, craving",
+   "kn": "ಬಾಯಾರಿಕೆ, ಆಸೆ",
+   "t": "feel"
+  },
+  {
+   "sa": "देवः",
+   "en": "god",
+   "kn": "ದೇವರು",
+   "t": "puja",
+   "c": "god"
+  },
+  {
+   "sa": "देवी",
+   "en": "goddess",
+   "kn": "ದೇವಿ",
+   "t": "puja"
+  },
+  {
+   "sa": "पूजा",
+   "en": "worship",
+   "kn": "ಪೂಜೆ",
+   "t": "puja"
+  },
+  {
+   "sa": "नैवेद्यम्",
+   "en": "food offering",
+   "kn": "ನೈವೇದ್ಯ",
+   "t": "puja"
+  },
+  {
+   "sa": "प्रसादः",
+   "en": "blessed food",
+   "kn": "ಪ್ರಸಾದ",
+   "t": "puja"
+  },
+  {
+   "sa": "नीराजनम्",
+   "en": "ārati (waving lamps)",
+   "kn": "ಆರತಿ",
+   "t": "puja"
+  },
+  {
+   "sa": "तीर्थम्",
+   "en": "holy water",
+   "kn": "ತೀರ್ಥ",
+   "t": "puja"
+  },
+  {
+   "sa": "घण्टा",
+   "en": "bell",
+   "kn": "ಗಂಟೆ",
+   "t": "puja"
+  },
+  {
+   "sa": "धूपः",
+   "en": "incense",
+   "kn": "ಧೂಪ",
+   "t": "puja"
+  },
+  {
+   "sa": "कर्पूरः",
+   "en": "camphor",
+   "kn": "ಕರ್ಪೂರ",
+   "t": "puja"
+  },
+  {
+   "sa": "तुलसी",
+   "en": "tulasī",
+   "kn": "ತುಳಸಿ",
+   "t": "puja"
+  },
+  {
+   "sa": "चन्दनम्",
+   "en": "sandal paste",
+   "kn": "ಗಂಧ",
+   "t": "puja"
+  },
+  {
+   "sa": "कुङ्कुमम्",
+   "en": "kumkum",
+   "kn": "ಕುಂಕುಮ",
+   "t": "puja"
+  },
+  {
+   "sa": "अक्षताः",
+   "en": "rice grains (offering)",
+   "kn": "ಅಕ್ಷತೆ",
+   "t": "puja"
+  },
+  {
+   "sa": "मन्त्रः",
+   "en": "mantra",
+   "kn": "ಮಂತ್ರ",
+   "t": "puja"
+  },
+  {
+   "sa": "जपः",
+   "en": "repetition of a mantra",
+   "kn": "ಜಪ",
+   "t": "puja"
+  },
+  {
+   "sa": "व्रतम्",
+   "en": "vow, fast",
+   "kn": "ವ್ರತ",
+   "t": "puja"
+  },
+  {
+   "sa": "उत्सवः",
+   "en": "festival",
+   "kn": "ಹಬ್ಬ",
+   "t": "puja"
+  },
+  {
+   "sa": "यात्रा",
+   "en": "pilgrimage, journey",
+   "kn": "ಯಾತ್ರೆ",
+   "t": "puja"
+  },
+  {
+   "sa": "प्रदक्षिणा",
+   "en": "circumambulation",
+   "kn": "ಪ್ರದಕ್ಷಿಣೆ",
+   "t": "puja"
+  },
+  {
+   "sa": "नमस्कारः",
+   "en": "salutation",
+   "kn": "ನಮಸ್ಕಾರ",
+   "t": "puja"
+  },
+  {
+   "sa": "कलशः",
+   "en": "sacred pot",
+   "kn": "ಕಲಶ",
+   "t": "puja"
+  },
+  {
+   "sa": "पुष्पमाला",
+   "en": "garland",
+   "kn": "ಹೂವಿನ ಹಾರ",
+   "t": "puja"
+  },
+  {
+   "sa": "दीपावली",
+   "en": "Dīpāvalī",
+   "kn": "ದೀಪಾವಳಿ",
+   "t": "puja"
+  },
+  {
+   "sa": "भास्करः",
+   "en": "sun",
+   "kn": "ಸೂರ್ಯ",
+   "c": "sun"
+  },
+  {
+   "sa": "दिवाकरः",
+   "en": "sun",
+   "kn": "ಸೂರ್ಯ",
+   "c": "sun"
+  },
+  {
+   "sa": "मार्तण्डः",
+   "en": "sun",
+   "kn": "ಸೂರ್ಯ",
+   "c": "sun"
+  },
+  {
+   "sa": "निशाकरः",
+   "en": "moon",
+   "kn": "ಚಂದ್ರ",
+   "c": "moon"
+  },
+  {
+   "sa": "हिमांशुः",
+   "en": "moon",
+   "kn": "ಚಂದ್ರ",
+   "c": "moon"
+  },
+  {
+   "sa": "शशाङ्कः",
+   "en": "moon",
+   "kn": "ಚಂದ್ರ",
+   "c": "moon"
+  },
+  {
+   "sa": "सलिलम्",
+   "en": "water",
+   "kn": "ನೀರು",
+   "c": "water"
+  },
+  {
+   "sa": "उदकम्",
+   "en": "water",
+   "kn": "ನೀರು",
+   "c": "water"
+  },
+  {
+   "sa": "पयः",
+   "en": "water",
+   "kn": "ನೀರು",
+   "c": "water"
+  },
+  {
+   "sa": "हुताशनः",
+   "en": "fire",
+   "kn": "ಬೆಂಕಿ",
+   "c": "fire"
+  },
+  {
+   "sa": "कृशानुः",
+   "en": "fire",
+   "kn": "ಬೆಂಕಿ",
+   "c": "fire"
+  },
+  {
+   "sa": "वातः",
+   "en": "wind",
+   "kn": "ಗಾಳಿ",
+   "c": "wind"
+  },
+  {
+   "sa": "मही",
+   "en": "earth",
+   "kn": "ಭೂಮಿ",
+   "c": "earth"
+  },
+  {
+   "sa": "अवनिः",
+   "en": "earth",
+   "kn": "ಭೂಮಿ",
+   "c": "earth"
+  },
+  {
+   "sa": "धरणी",
+   "en": "earth",
+   "kn": "ಭೂಮಿ",
+   "c": "earth"
+  },
+  {
+   "sa": "वसुन्धरा",
+   "en": "earth",
+   "kn": "ಭೂಮಿ",
+   "c": "earth"
+  },
+  {
+   "sa": "गगनम्",
+   "en": "sky",
+   "kn": "ಆಕಾಶ",
+   "c": "sky"
+  },
+  {
+   "sa": "नभः",
+   "en": "sky",
+   "kn": "ಆಕಾಶ",
+   "c": "sky"
+  },
+  {
+   "sa": "अम्बरम्",
+   "en": "sky",
+   "kn": "ಆಕಾಶ",
+   "c": "sky"
+  },
+  {
+   "sa": "व्योम",
+   "en": "sky",
+   "kn": "ಆಕಾಶ",
+   "c": "sky"
+  },
+  {
+   "sa": "अन्तरिक्षम्",
+   "en": "sky",
+   "kn": "ಆಕಾಶ",
+   "c": "sky"
+  },
+  {
+   "sa": "अम्बुदः",
+   "en": "cloud",
+   "kn": "ಮೋಡ",
+   "c": "cloud"
+  },
+  {
+   "sa": "पयोदः",
+   "en": "cloud",
+   "kn": "ಮೋಡ",
+   "c": "cloud"
+  },
+  {
+   "sa": "वारिदः",
+   "en": "cloud",
+   "kn": "ಮೋಡ",
+   "c": "cloud"
+  },
+  {
+   "sa": "सागरः",
+   "en": "ocean",
+   "kn": "ಸಮುದ್ರ",
+   "c": "sea"
+  },
+  {
+   "sa": "जलधिः",
+   "en": "ocean",
+   "kn": "ಸಮುದ್ರ",
+   "c": "sea"
+  },
+  {
+   "sa": "अर्णवः",
+   "en": "ocean",
+   "kn": "ಸಮುದ್ರ",
+   "c": "sea"
+  },
+  {
+   "sa": "उदधिः",
+   "en": "ocean",
+   "kn": "ಸಮುದ್ರ",
+   "c": "sea"
+  },
+  {
+   "sa": "अम्बुधिः",
+   "en": "ocean",
+   "kn": "ಸಮುದ್ರ",
+   "c": "sea"
+  },
+  {
+   "sa": "रत्नाकरः",
+   "en": "ocean",
+   "kn": "ಸಮುದ್ರ",
+   "c": "sea"
+  },
+  {
+   "sa": "गिरिः",
+   "en": "mountain",
+   "kn": "ಬೆಟ್ಟ",
+   "c": "mountain"
+  },
+  {
+   "sa": "शैलः",
+   "en": "mountain",
+   "kn": "ಬೆಟ್ಟ",
+   "c": "mountain"
+  },
+  {
+   "sa": "अचलः",
+   "en": "mountain",
+   "kn": "ಬೆಟ್ಟ",
+   "c": "mountain"
+  },
+  {
+   "sa": "अद्रिः",
+   "en": "mountain",
+   "kn": "ಬೆಟ್ಟ",
+   "c": "mountain"
+  },
+  {
+   "sa": "भूधरः",
+   "en": "mountain",
+   "kn": "ಬೆಟ್ಟ",
+   "c": "mountain"
+  },
+  {
+   "sa": "सरित्",
+   "en": "river",
+   "kn": "ನದಿ",
+   "c": "river"
+  },
+  {
+   "sa": "तटिनी",
+   "en": "river",
+   "kn": "ನದಿ",
+   "c": "river"
+  },
+  {
+   "sa": "तरङ्गिणी",
+   "en": "river",
+   "kn": "ನದಿ",
+   "c": "river"
+  },
+  {
+   "sa": "आपगा",
+   "en": "river",
+   "kn": "ನದಿ",
+   "c": "river"
+  },
+  {
+   "sa": "निम्नगा",
+   "en": "river",
+   "kn": "ನದಿ",
+   "c": "river"
+  },
+  {
+   "sa": "द्रुमः",
+   "en": "tree",
+   "kn": "ಮರ",
+   "c": "tree"
+  },
+  {
+   "sa": "विटपी",
+   "en": "tree",
+   "kn": "ಮರ",
+   "c": "tree"
+  },
+  {
+   "sa": "शाखी",
+   "en": "tree",
+   "kn": "ಮರ",
+   "c": "tree"
+  },
+  {
+   "sa": "कुसुमम्",
+   "en": "flower",
+   "kn": "ಹೂವು",
+   "c": "flower"
+  },
+  {
+   "sa": "सुमनः",
+   "en": "flower",
+   "kn": "ಹೂವು",
+   "c": "flower"
+  },
+  {
+   "sa": "प्रसूनम्",
+   "en": "flower",
+   "kn": "ಹೂವು",
+   "c": "flower"
+  },
+  {
+   "sa": "पद्मम्",
+   "en": "lotus",
+   "kn": "ಕಮಲ",
+   "c": "lotus"
+  },
+  {
+   "sa": "अरविन्दम्",
+   "en": "lotus",
+   "kn": "ಕಮಲ",
+   "c": "lotus"
+  },
+  {
+   "sa": "पङ्कजम्",
+   "en": "lotus",
+   "kn": "ಕಮಲ",
+   "c": "lotus"
+  },
+  {
+   "sa": "सरोजम्",
+   "en": "lotus",
+   "kn": "ಕಮಲ",
+   "c": "lotus"
+  },
+  {
+   "sa": "नलिनम्",
+   "en": "lotus",
+   "kn": "ಕಮಲ",
+   "c": "lotus"
+  },
+  {
+   "sa": "राजीवम्",
+   "en": "lotus",
+   "kn": "ಕಮಲ",
+   "c": "lotus"
+  },
+  {
+   "sa": "अम्बुजम्",
+   "en": "lotus",
+   "kn": "ಕಮಲ",
+   "c": "lotus"
+  },
+  {
+   "sa": "अरण्यम्",
+   "en": "forest",
+   "kn": "ಕಾಡು",
+   "c": "forest"
+  },
+  {
+   "sa": "काननम्",
+   "en": "forest",
+   "kn": "ಕಾಡು",
+   "c": "forest"
+  },
+  {
+   "sa": "विपिनम्",
+   "en": "forest",
+   "kn": "ಕಾಡು",
+   "c": "forest"
+  },
+  {
+   "sa": "अटवी",
+   "en": "forest",
+   "kn": "ಕಾಡು",
+   "c": "forest"
+  },
+  {
+   "sa": "निशा",
+   "en": "night",
+   "kn": "ರಾತ್ರಿ",
+   "c": "night"
+  },
+  {
+   "sa": "रजनी",
+   "en": "night",
+   "kn": "ರಾತ್ರಿ",
+   "c": "night"
+  },
+  {
+   "sa": "यामिनी",
+   "en": "night",
+   "kn": "ರಾತ್ರಿ",
+   "c": "night"
+  },
+  {
+   "sa": "क्षपा",
+   "en": "night",
+   "kn": "ರಾತ್ರಿ",
+   "c": "night"
+  },
+  {
+   "sa": "विभावरी",
+   "en": "night",
+   "kn": "ರಾತ್ರಿ",
+   "c": "night"
+  },
+  {
+   "sa": "दिवसः",
+   "en": "day",
+   "kn": "ದಿನ",
+   "c": "day"
+  },
+  {
+   "sa": "वासरः",
+   "en": "day",
+   "kn": "ದಿನ",
+   "c": "day"
+  },
+  {
+   "sa": "अहः",
+   "en": "day",
+   "kn": "ದಿನ",
+   "c": "day"
+  },
+  {
+   "sa": "सुवर्णम्",
+   "en": "gold",
+   "kn": "ಚಿನ್ನ",
+   "c": "gold"
+  },
+  {
+   "sa": "कनकम्",
+   "en": "gold",
+   "kn": "ಚಿನ್ನ",
+   "c": "gold"
+  },
+  {
+   "sa": "हेम",
+   "en": "gold",
+   "kn": "ಚಿನ್ನ",
+   "c": "gold"
+  },
+  {
+   "sa": "हिरण्यम्",
+   "en": "gold",
+   "kn": "ಚಿನ್ನ",
+   "c": "gold"
+  },
+  {
+   "sa": "काञ्चनम्",
+   "en": "gold",
+   "kn": "ಚಿನ್ನ",
+   "c": "gold"
+  },
+  {
+   "sa": "आलयः",
+   "en": "house",
+   "kn": "ಮನೆ",
+   "c": "house"
+  },
+  {
+   "sa": "निलयः",
+   "en": "house",
+   "kn": "ಮನೆ",
+   "c": "house"
+  },
+  {
+   "sa": "गेहम्",
+   "en": "house",
+   "kn": "ಮನೆ",
+   "c": "house"
+  },
+  {
+   "sa": "शरीरम्",
+   "en": "body",
+   "kn": "ದೇಹ",
+   "c": "body"
+  },
+  {
+   "sa": "देहः",
+   "en": "body",
+   "kn": "ದೇಹ",
+   "c": "body"
+  },
+  {
+   "sa": "कायः",
+   "en": "body",
+   "kn": "ದೇಹ",
+   "c": "body"
+  },
+  {
+   "sa": "गात्रम्",
+   "en": "body",
+   "kn": "ದೇಹ",
+   "c": "body"
+  },
+  {
+   "sa": "वपुः",
+   "en": "body",
+   "kn": "ದೇಹ",
+   "c": "body"
+  },
+  {
+   "sa": "चक्षुः",
+   "en": "eye",
+   "kn": "ಕಣ್ಣು",
+   "c": "eye"
+  },
+  {
+   "sa": "अक्षि",
+   "en": "eye",
+   "kn": "ಕಣ್ಣು",
+   "c": "eye"
+  },
+  {
+   "sa": "स्त्री",
+   "en": "woman",
+   "kn": "ಹೆಣ್ಣು",
+   "c": "woman"
+  },
+  {
+   "sa": "नारी",
+   "en": "woman",
+   "kn": "ಹೆಣ್ಣು",
+   "c": "woman"
+  },
+  {
+   "sa": "वनिता",
+   "en": "woman",
+   "kn": "ಹೆಣ್ಣು",
+   "c": "woman"
+  },
+  {
+   "sa": "महिला",
+   "en": "woman",
+   "kn": "ಹೆಣ್ಣು",
+   "c": "woman"
+  },
+  {
+   "sa": "ललना",
+   "en": "woman",
+   "kn": "ಹೆಣ್ಣು",
+   "c": "woman"
+  },
+  {
+   "sa": "अबला",
+   "en": "woman",
+   "kn": "ಹೆಣ್ಣು",
+   "c": "woman"
+  },
+  {
+   "sa": "मनुष्यः",
+   "en": "man, human",
+   "kn": "ಮನುಷ್ಯ",
+   "c": "man"
+  },
+  {
+   "sa": "नरः",
+   "en": "man, human",
+   "kn": "ಮನುಷ್ಯ",
+   "c": "man"
+  },
+  {
+   "sa": "मानवः",
+   "en": "man, human",
+   "kn": "ಮನುಷ್ಯ",
+   "c": "man"
+  },
+  {
+   "sa": "पुरुषः",
+   "en": "man, human",
+   "kn": "ಮನುಷ್ಯ",
+   "c": "man"
+  },
+  {
+   "sa": "मर्त्यः",
+   "en": "man, human",
+   "kn": "ಮನುಷ್ಯ",
+   "c": "man"
+  },
+  {
+   "sa": "नृपः",
+   "en": "king",
+   "kn": "ರಾಜ",
+   "c": "king"
+  },
+  {
+   "sa": "भूपः",
+   "en": "king",
+   "kn": "ರಾಜ",
+   "c": "king"
+  },
+  {
+   "sa": "भूपतिः",
+   "en": "king",
+   "kn": "ರಾಜ",
+   "c": "king"
+  },
+  {
+   "sa": "नरेन्द्रः",
+   "en": "king",
+   "kn": "ರಾಜ",
+   "c": "king"
+  },
+  {
+   "sa": "महीपतिः",
+   "en": "king",
+   "kn": "ರಾಜ",
+   "c": "king"
+  },
+  {
+   "sa": "नृपतिः",
+   "en": "king",
+   "kn": "ರಾಜ",
+   "c": "king"
+  },
+  {
+   "sa": "सखा",
+   "en": "friend",
+   "kn": "ಸ್ನೇಹಿತ",
+   "c": "friend"
+  },
+  {
+   "sa": "सुहृद्",
+   "en": "friend",
+   "kn": "ಸ್ನೇಹಿತ",
+   "c": "friend"
+  },
+  {
+   "sa": "वयस्यः",
+   "en": "friend",
+   "kn": "ಸ್ನೇಹಿತ",
+   "c": "friend"
+  },
+  {
+   "sa": "शत्रुः",
+   "en": "enemy",
+   "kn": "ಶತ್ರು",
+   "c": "enemy"
+  },
+  {
+   "sa": "अरिः",
+   "en": "enemy",
+   "kn": "ಶತ್ರು",
+   "c": "enemy"
+  },
+  {
+   "sa": "रिपुः",
+   "en": "enemy",
+   "kn": "ಶತ್ರು",
+   "c": "enemy"
+  },
+  {
+   "sa": "वैरी",
+   "en": "enemy",
+   "kn": "ಶತ್ರು",
+   "c": "enemy"
+  },
+  {
+   "sa": "धनम्",
+   "en": "wealth",
+   "kn": "ಸಂಪತ್ತು",
+   "c": "wealth"
+  },
+  {
+   "sa": "वित्तम्",
+   "en": "wealth",
+   "kn": "ಸಂಪತ್ತು",
+   "c": "wealth"
+  },
+  {
+   "sa": "द्रव्यम्",
+   "en": "wealth",
+   "kn": "ಸಂಪತ್ತು",
+   "c": "wealth"
+  },
+  {
+   "sa": "वसु",
+   "en": "wealth",
+   "kn": "ಸಂಪತ್ತು",
+   "c": "wealth"
+  },
+  {
+   "sa": "सुतः",
+   "en": "son",
+   "kn": "ಮಗ",
+   "c": "son"
+  },
+  {
+   "sa": "तनयः",
+   "en": "son",
+   "kn": "ಮಗ",
+   "c": "son"
+  },
+  {
+   "sa": "आत्मजः",
+   "en": "son",
+   "kn": "ಮಗ",
+   "c": "son"
+  },
+  {
+   "sa": "सूनुः",
+   "en": "son",
+   "kn": "ಮಗ",
+   "c": "son"
+  },
+  {
+   "sa": "सुता",
+   "en": "daughter",
+   "kn": "ಮಗಳು",
+   "c": "daughter"
+  },
+  {
+   "sa": "तनया",
+   "en": "daughter",
+   "kn": "ಮಗಳು",
+   "c": "daughter"
+  },
+  {
+   "sa": "दुहिता",
+   "en": "daughter",
+   "kn": "ಮಗಳು",
+   "c": "daughter"
+  },
+  {
+   "sa": "आत्मजा",
+   "en": "daughter",
+   "kn": "ಮಗಳು",
+   "c": "daughter"
+  },
+  {
+   "sa": "जननी",
+   "en": "mother",
+   "kn": "ತಾಯಿ",
+   "c": "mother"
+  },
+  {
+   "sa": "अम्बा",
+   "en": "mother",
+   "kn": "ತಾಯಿ",
+   "c": "mother"
+  },
+  {
+   "sa": "प्रसूः",
+   "en": "mother",
+   "kn": "ತಾಯಿ",
+   "c": "mother"
+  },
+  {
+   "sa": "हस्ती",
+   "en": "elephant",
+   "kn": "ಆನೆ",
+   "c": "elephant"
+  },
+  {
+   "sa": "करी",
+   "en": "elephant",
+   "kn": "ಆನೆ",
+   "c": "elephant"
+  },
+  {
+   "sa": "द्विपः",
+   "en": "elephant",
+   "kn": "ಆನೆ",
+   "c": "elephant"
+  },
+  {
+   "sa": "मातङ्गः",
+   "en": "elephant",
+   "kn": "ಆನೆ",
+   "c": "elephant"
+  },
+  {
+   "sa": "वारणः",
+   "en": "elephant",
+   "kn": "ಆನೆ",
+   "c": "elephant"
+  },
+  {
+   "sa": "कुञ्जरः",
+   "en": "elephant",
+   "kn": "ಆನೆ",
+   "c": "elephant"
+  },
+  {
+   "sa": "हयः",
+   "en": "horse",
+   "kn": "ಕುದುರೆ",
+   "c": "horse"
+  },
+  {
+   "sa": "तुरगः",
+   "en": "horse",
+   "kn": "ಕುದುರೆ",
+   "c": "horse"
+  },
+  {
+   "sa": "तुरङ्गः",
+   "en": "horse",
+   "kn": "ಕುದುರೆ",
+   "c": "horse"
+  },
+  {
+   "sa": "वाजी",
+   "en": "horse",
+   "kn": "ಕುದುರೆ",
+   "c": "horse"
+  },
+  {
+   "sa": "घोटकः",
+   "en": "horse",
+   "kn": "ಕುದುರೆ",
+   "c": "horse"
+  },
+  {
+   "sa": "केसरी",
+   "en": "lion",
+   "kn": "ಸಿಂಹ",
+   "c": "lion"
+  },
+  {
+   "sa": "मृगेन्द्रः",
+   "en": "lion",
+   "kn": "ಸಿಂಹ",
+   "c": "lion"
+  },
+  {
+   "sa": "मृगराजः",
+   "en": "lion",
+   "kn": "ಸಿಂಹ",
+   "c": "lion"
+  },
+  {
+   "sa": "पञ्चाननः",
+   "en": "lion",
+   "kn": "ಸಿಂಹ",
+   "c": "lion"
+  },
+  {
+   "sa": "भुजगः",
+   "en": "snake",
+   "kn": "ಹಾವು",
+   "c": "snake"
+  },
+  {
+   "sa": "भुजङ्गः",
+   "en": "snake",
+   "kn": "ಹಾವು",
+   "c": "snake"
+  },
+  {
+   "sa": "अहिः",
+   "en": "snake",
+   "kn": "ಹಾವು",
+   "c": "snake"
+  },
+  {
+   "sa": "उरगः",
+   "en": "snake",
+   "kn": "ಹಾವು",
+   "c": "snake"
+  },
+  {
+   "sa": "पन्नगः",
+   "en": "snake",
+   "kn": "ಹಾವು",
+   "c": "snake"
+  },
+  {
+   "sa": "नागः",
+   "en": "snake",
+   "kn": "ಹಾವು",
+   "c": "snake"
+  },
+  {
+   "sa": "खगः",
+   "en": "bird",
+   "kn": "ಹಕ್ಕಿ",
+   "c": "bird"
+  },
+  {
+   "sa": "विहगः",
+   "en": "bird",
+   "kn": "ಹಕ್ಕಿ",
+   "c": "bird"
+  },
+  {
+   "sa": "विहङ्गः",
+   "en": "bird",
+   "kn": "ಹಕ್ಕಿ",
+   "c": "bird"
+  },
+  {
+   "sa": "शकुनिः",
+   "en": "bird",
+   "kn": "ಹಕ್ಕಿ",
+   "c": "bird"
+  },
+  {
+   "sa": "अण्डजः",
+   "en": "bird",
+   "kn": "ಹಕ್ಕಿ",
+   "c": "bird"
+  },
+  {
+   "sa": "कपिः",
+   "en": "monkey",
+   "kn": "ಕೋತಿ",
+   "c": "monkey"
+  },
+  {
+   "sa": "मर्कटः",
+   "en": "monkey",
+   "kn": "ಕೋತಿ",
+   "c": "monkey"
+  },
+  {
+   "sa": "शाखामृगः",
+   "en": "monkey",
+   "kn": "ಕೋತಿ",
+   "c": "monkey"
+  },
+  {
+   "sa": "प्लवङ्गः",
+   "en": "monkey",
+   "kn": "ಕೋತಿ",
+   "c": "monkey"
+  },
+  {
+   "sa": "हरिणः",
+   "en": "deer",
+   "kn": "ಜಿಂಕೆ",
+   "c": "deer"
+  },
+  {
+   "sa": "कुरङ्गः",
+   "en": "deer",
+   "kn": "ಜಿಂಕೆ",
+   "c": "deer"
+  },
+  {
+   "sa": "सारङ्गः",
+   "en": "deer",
+   "kn": "ಜಿಂಕೆ",
+   "c": "deer"
+  },
+  {
+   "sa": "एणः",
+   "en": "deer",
+   "kn": "ಜಿಂಕೆ",
+   "c": "deer"
+  },
+  {
+   "sa": "मधुपः",
+   "en": "bee",
+   "kn": "ದುಂಬಿ",
+   "c": "bee"
+  },
+  {
+   "sa": "अलिः",
+   "en": "bee",
+   "kn": "ದುಂಬಿ",
+   "c": "bee"
+  },
+  {
+   "sa": "षट्पदः",
+   "en": "bee",
+   "kn": "ದುಂಬಿ",
+   "c": "bee"
+  },
+  {
+   "sa": "द्विरेफः",
+   "en": "bee",
+   "kn": "ದುಂಬಿ",
+   "c": "bee"
+  },
+  {
+   "sa": "मधुकरः",
+   "en": "bee",
+   "kn": "ದುಂಬಿ",
+   "c": "bee"
+  },
+  {
+   "sa": "वायसः",
+   "en": "crow",
+   "kn": "ಕಾಗೆ",
+   "c": "crow"
+  },
+  {
+   "sa": "ध्वाङ्क्षः",
+   "en": "crow",
+   "kn": "ಕಾಗೆ",
+   "c": "crow"
+  },
+  {
+   "sa": "करटः",
+   "en": "crow",
+   "kn": "ಕಾಗೆ",
+   "c": "crow"
+  },
+  {
+   "sa": "बलिभुक्",
+   "en": "crow",
+   "kn": "ಕಾಗೆ",
+   "c": "crow"
+  },
+  {
+   "sa": "गोविन्दः",
+   "en": "viṣṇu",
+   "kn": "ವಿಷ್ಣು",
+   "c": "vishnu"
+  },
+  {
+   "sa": "मुकुन्दः",
+   "en": "viṣṇu",
+   "kn": "ವಿಷ್ಣು",
+   "c": "vishnu"
+  },
+  {
+   "sa": "जनार्दनः",
+   "en": "viṣṇu",
+   "kn": "ವಿಷ್ಣು",
+   "c": "vishnu"
+  },
+  {
+   "sa": "शिवः",
+   "en": "śiva",
+   "kn": "ಶಿವ",
+   "c": "shiva"
+  },
+  {
+   "sa": "शम्भुः",
+   "en": "śiva",
+   "kn": "ಶಿವ",
+   "c": "shiva"
+  },
+  {
+   "sa": "शङ्करः",
+   "en": "śiva",
+   "kn": "ಶಿವ",
+   "c": "shiva"
+  },
+  {
+   "sa": "ईशः",
+   "en": "śiva",
+   "kn": "ಶಿವ",
+   "c": "shiva"
+  },
+  {
+   "sa": "महेश्वरः",
+   "en": "śiva",
+   "kn": "ಶಿವ",
+   "c": "shiva"
+  },
+  {
+   "sa": "पशुपतिः",
+   "en": "śiva",
+   "kn": "ಶಿವ",
+   "c": "shiva"
+  },
+  {
+   "sa": "गिरीशः",
+   "en": "śiva",
+   "kn": "ಶಿವ",
+   "c": "shiva"
+  },
+  {
+   "sa": "त्र्यम्बकः",
+   "en": "śiva",
+   "kn": "ಶಿವ",
+   "c": "shiva"
+  },
+  {
+   "sa": "ब्रह्मा",
+   "en": "brahmā",
+   "kn": "ಬ್ರಹ್ಮ",
+   "c": "brahma"
+  },
+  {
+   "sa": "विधाता",
+   "en": "brahmā",
+   "kn": "ಬ್ರಹ್ಮ",
+   "c": "brahma"
+  },
+  {
+   "sa": "स्वयम्भूः",
+   "en": "brahmā",
+   "kn": "ಬ್ರಹ್ಮ",
+   "c": "brahma"
+  },
+  {
+   "sa": "चतुराननः",
+   "en": "brahmā",
+   "kn": "ಬ್ರಹ್ಮ",
+   "c": "brahma"
+  },
+  {
+   "sa": "विरिञ्चिः",
+   "en": "brahmā",
+   "kn": "ಬ್ರಹ್ಮ",
+   "c": "brahma"
+  },
+  {
+   "sa": "लक्ष्मीः",
+   "en": "lakṣmī",
+   "kn": "ಲಕ್ಷ್ಮಿ",
+   "c": "lakshmi"
+  },
+  {
+   "sa": "श्रीः",
+   "en": "lakṣmī",
+   "kn": "ಲಕ್ಷ್ಮಿ",
+   "c": "lakshmi"
+  },
+  {
+   "sa": "पद्मा",
+   "en": "lakṣmī",
+   "kn": "ಲಕ್ಷ್ಮಿ",
+   "c": "lakshmi"
+  },
+  {
+   "sa": "कमला",
+   "en": "lakṣmī",
+   "kn": "ಲಕ್ಷ್ಮಿ",
+   "c": "lakshmi"
+  },
+  {
+   "sa": "इन्दिरा",
+   "en": "lakṣmī",
+   "kn": "ಲಕ್ಷ್ಮಿ",
+   "c": "lakshmi"
+  },
+  {
+   "sa": "रमा",
+   "en": "lakṣmī",
+   "kn": "ಲಕ್ಷ್ಮಿ",
+   "c": "lakshmi"
+  },
+  {
+   "sa": "सरस्वती",
+   "en": "sarasvatī",
+   "kn": "ಸರಸ್ವತಿ",
+   "c": "sarasvati"
+  },
+  {
+   "sa": "वाणी",
+   "en": "sarasvatī",
+   "kn": "ಸರಸ್ವತಿ",
+   "c": "sarasvati"
+  },
+  {
+   "sa": "भारती",
+   "en": "sarasvatī",
+   "kn": "ಸರಸ್ವತಿ",
+   "c": "sarasvati"
+  },
+  {
+   "sa": "शारदा",
+   "en": "sarasvatī",
+   "kn": "ಸರಸ್ವತಿ",
+   "c": "sarasvati"
+  },
+  {
+   "sa": "ब्राह्मी",
+   "en": "sarasvatī",
+   "kn": "ಸರಸ್ವತಿ",
+   "c": "sarasvati"
+  },
+  {
+   "sa": "इन्द्रः",
+   "en": "indra",
+   "kn": "ಇಂದ್ರ",
+   "c": "indra"
+  },
+  {
+   "sa": "शक्रः",
+   "en": "indra",
+   "kn": "ಇಂದ್ರ",
+   "c": "indra"
+  },
+  {
+   "sa": "पुरन्दरः",
+   "en": "indra",
+   "kn": "ಇಂದ್ರ",
+   "c": "indra"
+  },
+  {
+   "sa": "वज्री",
+   "en": "indra",
+   "kn": "ಇಂದ್ರ",
+   "c": "indra"
+  },
+  {
+   "sa": "मघवा",
+   "en": "indra",
+   "kn": "ಇಂದ್ರ",
+   "c": "indra"
+  },
+  {
+   "sa": "सुरेशः",
+   "en": "indra",
+   "kn": "ಇಂದ್ರ",
+   "c": "indra"
+  },
+  {
+   "sa": "सुरः",
+   "en": "god / deva",
+   "kn": "ದೇವ",
+   "c": "god"
+  },
+  {
+   "sa": "अमरः",
+   "en": "god / deva",
+   "kn": "ದೇವ",
+   "c": "god"
+  },
+  {
+   "sa": "निर्जरः",
+   "en": "god / deva",
+   "kn": "ದೇವ",
+   "c": "god"
+  },
+  {
+   "sa": "त्रिदशः",
+   "en": "god / deva",
+   "kn": "ದೇವ",
+   "c": "god"
+  },
+  {
+   "sa": "तडित्",
+   "en": "lightning",
+   "kn": "ಮಿಂಚು",
+   "c": "lightning"
+  },
+  {
+   "sa": "सौदामिनी",
+   "en": "lightning",
+   "kn": "ಮಿಂಚು",
+   "c": "lightning"
+  },
+  {
+   "sa": "चपला",
+   "en": "lightning",
+   "kn": "ಮಿಂಚು",
+   "c": "lightning"
+  },
+  {
+   "sa": "वाक्",
+   "en": "speech, word",
+   "kn": "ಮಾತು",
+   "c": "speech"
+  },
+  {
+   "sa": "वचनम्",
+   "en": "speech, word",
+   "kn": "ಮಾತು",
+   "c": "speech"
+  },
+  {
+   "sa": "गीः",
+   "en": "speech, word",
+   "kn": "ಮಾತು",
+   "c": "speech"
+  },
+  {
+   "sa": "वचः",
+   "en": "speech, word",
+   "kn": "ಮಾತು",
+   "c": "speech"
   }
  ],
  "CLUSTERS": {
@@ -6303,6 +10145,154 @@
   "eye": {
    "en": "Eye",
    "kn": "ಕಣ್ಣು"
+  },
+  "sky": {
+   "en": "Sky",
+   "kn": "ಆಕಾಶ"
+  },
+  "sea": {
+   "en": "Ocean",
+   "kn": "ಸಮುದ್ರ"
+  },
+  "mountain": {
+   "en": "Mountain",
+   "kn": "ಬೆಟ್ಟ"
+  },
+  "river": {
+   "en": "River",
+   "kn": "ನದಿ"
+  },
+  "flower": {
+   "en": "Flower",
+   "kn": "ಹೂವು"
+  },
+  "lotus": {
+   "en": "Lotus",
+   "kn": "ಕಮಲ"
+  },
+  "forest": {
+   "en": "Forest",
+   "kn": "ಕಾಡು"
+  },
+  "night": {
+   "en": "Night",
+   "kn": "ರಾತ್ರಿ"
+  },
+  "day": {
+   "en": "Day",
+   "kn": "ದಿನ"
+  },
+  "gold": {
+   "en": "Gold",
+   "kn": "ಚಿನ್ನ"
+  },
+  "body": {
+   "en": "Body",
+   "kn": "ದೇಹ"
+  },
+  "woman": {
+   "en": "Woman",
+   "kn": "ಹೆಣ್ಣು"
+  },
+  "man": {
+   "en": "Man, human",
+   "kn": "ಮನುಷ್ಯ"
+  },
+  "king": {
+   "en": "King",
+   "kn": "ರಾಜ"
+  },
+  "friend": {
+   "en": "Friend",
+   "kn": "ಸ್ನೇಹಿತ"
+  },
+  "enemy": {
+   "en": "Enemy",
+   "kn": "ಶತ್ರು"
+  },
+  "wealth": {
+   "en": "Wealth",
+   "kn": "ಸಂಪತ್ತು"
+  },
+  "son": {
+   "en": "Son",
+   "kn": "ಮಗ"
+  },
+  "daughter": {
+   "en": "Daughter",
+   "kn": "ಮಗಳು"
+  },
+  "mother": {
+   "en": "Mother",
+   "kn": "ತಾಯಿ"
+  },
+  "elephant": {
+   "en": "Elephant",
+   "kn": "ಆನೆ"
+  },
+  "horse": {
+   "en": "Horse",
+   "kn": "ಕುದುರೆ"
+  },
+  "lion": {
+   "en": "Lion",
+   "kn": "ಸಿಂಹ"
+  },
+  "snake": {
+   "en": "Snake",
+   "kn": "ಹಾವು"
+  },
+  "bird": {
+   "en": "Bird",
+   "kn": "ಹಕ್ಕಿ"
+  },
+  "monkey": {
+   "en": "Monkey",
+   "kn": "ಕೋತಿ"
+  },
+  "deer": {
+   "en": "Deer",
+   "kn": "ಜಿಂಕೆ"
+  },
+  "bee": {
+   "en": "Bee",
+   "kn": "ದುಂಬಿ"
+  },
+  "crow": {
+   "en": "Crow",
+   "kn": "ಕಾಗೆ"
+  },
+  "shiva": {
+   "en": "Śiva",
+   "kn": "ಶಿವ"
+  },
+  "brahma": {
+   "en": "Brahmā",
+   "kn": "ಬ್ರಹ್ಮ"
+  },
+  "lakshmi": {
+   "en": "Lakṣmī",
+   "kn": "ಲಕ್ಷ್ಮಿ"
+  },
+  "sarasvati": {
+   "en": "Sarasvatī",
+   "kn": "ಸರಸ್ವತಿ"
+  },
+  "indra": {
+   "en": "Indra",
+   "kn": "ಇಂದ್ರ"
+  },
+  "god": {
+   "en": "God / deva",
+   "kn": "ದೇವ"
+  },
+  "lightning": {
+   "en": "Lightning",
+   "kn": "ಮಿಂಚು"
+  },
+  "speech": {
+   "en": "Speech, word",
+   "kn": "ಮಾತು"
   }
  },
  "SENTENCES": [
@@ -6848,6 +10838,680 @@
      "आम्, सायं मिलामः।",
      "Yes, let's meet in the evening.",
      "ಹೌದು, ಸಂಜೆ ಭೇಟಿಯಾಗೋಣ."
+    ]
+   ]
+  },
+  {
+   "t": "वैद्यालये",
+   "en": "At the doctor",
+   "kn": "ವೈದ್ಯರ ಬಳಿ",
+   "l": [
+    [
+     "A",
+     "आगच्छतु, उपविशतु। किं कष्टम्?",
+     "Come in, sit down. What is the trouble?",
+     "ಬನ್ನಿ, ಕುಳಿತುಕೊಳ್ಳಿ. ಏನು ತೊಂದರೆ?"
+    ],
+    [
+     "B",
+     "ह्यः आरभ्य ज्वरः अस्ति। शिरोवेदना अपि अस्ति।",
+     "I have had fever since yesterday. I also have a headache.",
+     "ನಿನ್ನೆಯಿಂದ ಜ್ವರ ಇದೆ. ತಲೆನೋವೂ ಇದೆ."
+    ],
+    [
+     "A",
+     "कासः अस्ति वा?",
+     "Do you have a cough?",
+     "ಕೆಮ್ಮು ಇದೆಯೇ?"
+    ],
+    [
+     "B",
+     "आम्, किञ्चित् कासः अस्ति।",
+     "Yes, a little cough.",
+     "ಹೌದು, ಸ್ವಲ್ಪ ಕೆಮ್ಮು ಇದೆ."
+    ],
+    [
+     "A",
+     "चिन्ता मास्तु। एताः गुलिकाः दिने त्रिवारं स्वीकरोतु।",
+     "Don’t worry. Take these tablets three times a day.",
+     "ಚಿಂತಿಸಬೇಡಿ. ಈ ಮಾತ್ರೆಗಳನ್ನು ದಿನಕ್ಕೆ ಮೂರು ಬಾರಿ ತೆಗೆದುಕೊಳ್ಳಿ."
+    ],
+    [
+     "B",
+     "भोजनात् पूर्वं वा पश्चात् वा?",
+     "Before food or after food?",
+     "ಊಟದ ಮೊದಲು ಅಥವಾ ನಂತರ?"
+    ],
+    [
+     "A",
+     "भोजनानन्तरम्। उष्णजलं पिबतु, विश्रामं करोतु।",
+     "After food. Drink warm water and rest.",
+     "ಊಟದ ನಂತರ. ಬಿಸಿನೀರು ಕುಡಿಯಿರಿ, ವಿಶ್ರಾಂತಿ ತೆಗೆದುಕೊಳ್ಳಿ."
+    ],
+    [
+     "B",
+     "धन्यवादः, वैद्यमहोदय।",
+     "Thank you, doctor.",
+     "ಧನ್ಯವಾದ, ವೈದ್ಯರೇ."
+    ]
+   ]
+  },
+  {
+   "t": "सौचिकः",
+   "en": "At the tailor (alterations)",
+   "kn": "ದರ್ಜಿಯ ಬಳಿ (ಆಲ್ಟರೇಷನ್)",
+   "l": [
+    [
+     "A",
+     "नमस्ते। कथं साहाय्यं करोमि?",
+     "Hello. How can I help?",
+     "ನಮಸ್ತೆ. ಏನು ಸಹಾಯ ಮಾಡಲಿ?"
+    ],
+    [
+     "B",
+     "एतत् युतकं दीर्घम् अस्ति। किञ्चित् ह्रस्वं करोतु।",
+     "This shirt is long. Please make it a little shorter.",
+     "ಈ ಅಂಗಿ ಉದ್ದವಾಗಿದೆ. ಸ್ವಲ್ಪ ಚಿಕ್ಕದು ಮಾಡಿ."
+    ],
+    [
+     "A",
+     "अस्तु। हस्तौ अपि ह्रस्वौ करोमि वा?",
+     "All right. Shall I shorten the sleeves too?",
+     "ಸರಿ. ತೋಳುಗಳನ್ನೂ ಚಿಕ್ಕದು ಮಾಡಲೇ?"
+    ],
+    [
+     "B",
+     "न, हस्तौ सम्यक् स्तः। केवलं दैर्घ्यम्।",
+     "No, the sleeves are fine. Only the length.",
+     "ಬೇಡ, ತೋಳುಗಳು ಸರಿಯಾಗಿವೆ. ಉದ್ದ ಮಾತ್ರ."
+    ],
+    [
+     "A",
+     "कदा आवश्यकम्?",
+     "When do you need it?",
+     "ಯಾವಾಗ ಬೇಕು?"
+    ],
+    [
+     "B",
+     "श्वः सायङ्काले शक्यते वा?",
+     "Is tomorrow evening possible?",
+     "ನಾಳೆ ಸಂಜೆ ಸಾಧ್ಯವೇ?"
+    ],
+    [
+     "A",
+     "आम्, श्वः पञ्चवादने सिद्धं भविष्यति। शतं रूप्यकाणि।",
+     "Yes, it will be ready tomorrow at five. A hundred rupees.",
+     "ಹೌದು, ನಾಳೆ ಐದು ಗಂಟೆಗೆ ಸಿದ್ಧವಾಗುತ್ತದೆ. ನೂರು ರೂಪಾಯಿ."
+    ],
+    [
+     "B",
+     "अस्तु, श्वः आगच्छामि।",
+     "Fine, I will come tomorrow.",
+     "ಸರಿ, ನಾಳೆ ಬರುತ್ತೇನೆ."
+    ]
+   ]
+  },
+  {
+   "t": "रेलस्थानके",
+   "en": "At the railway station",
+   "kn": "ರೈಲು ನಿಲ್ದಾಣದಲ್ಲಿ",
+   "l": [
+    [
+     "B",
+     "मैसूरुनगरं प्रति रेलयानं कदा अस्ति?",
+     "When is the train to Mysuru?",
+     "ಮೈಸೂರಿಗೆ ರೈಲು ಯಾವಾಗ ಇದೆ?"
+    ],
+    [
+     "A",
+     "दशवादने अस्ति।",
+     "It is at ten o’clock.",
+     "ಹತ್ತು ಗಂಟೆಗೆ ಇದೆ."
+    ],
+    [
+     "B",
+     "एकं चीटिकां ददातु। कति रूप्यकाणि?",
+     "Please give me one ticket. How many rupees?",
+     "ಒಂದು ಟಿಕೆಟ್ ಕೊಡಿ. ಎಷ್ಟು ರೂಪಾಯಿ?"
+    ],
+    [
+     "A",
+     "अशीतिः रूप्यकाणि।",
+     "Eighty rupees.",
+     "ಎಂಬತ್ತು ರೂಪಾಯಿ."
+    ],
+    [
+     "B",
+     "रेलयानं कस्मिन् मञ्चे आगमिष्यति?",
+     "On which platform will the train come?",
+     "ರೈಲು ಯಾವ ಪ್ಲಾಟ್‌ಫಾರ್ಮ್‌ಗೆ ಬರುತ್ತದೆ?"
+    ],
+    [
+     "A",
+     "तृतीये मञ्चे।",
+     "On the third platform.",
+     "ಮೂರನೇ ಪ್ಲಾಟ್‌ಫಾರ್ಮ್‌ಗೆ."
+    ],
+    [
+     "B",
+     "रेलयानं विलम्बेन आगच्छति वा?",
+     "Is the train running late?",
+     "ರೈಲು ತಡವಾಗಿ ಬರುತ್ತಿದೆಯೇ?"
+    ],
+    [
+     "A",
+     "न, समये एव आगच्छति। शुभयात्रा!",
+     "No, it is on time. Have a good journey!",
+     "ಇಲ್ಲ, ಸಮಯಕ್ಕೇ ಬರುತ್ತದೆ. ಶುಭ ಪ್ರಯಾಣ!"
+    ]
+   ]
+  },
+  {
+   "t": "वातावरणम्",
+   "en": "Talking about the weather",
+   "kn": "ಹವಾಮಾನದ ಬಗ್ಗೆ",
+   "l": [
+    [
+     "A",
+     "अद्य बहु उष्णम् अस्ति, किल?",
+     "It is very hot today, isn’t it?",
+     "ಇಂದು ತುಂಬಾ ಸೆಖೆ ಇದೆ, ಅಲ್ಲವೇ?"
+    ],
+    [
+     "B",
+     "आम्, अतीव उष्णम्। जलं पुनः पुनः पिबामि।",
+     "Yes, very hot. I keep drinking water.",
+     "ಹೌದು, ತುಂಬಾ ಸೆಖೆ. ಮತ್ತೆ ಮತ್ತೆ ನೀರು ಕುಡಿಯುತ್ತೇನೆ."
+    ],
+    [
+     "A",
+     "सायङ्काले वृष्टिः भवेत्। आकाशे मेघाः सन्ति।",
+     "It may rain in the evening. There are clouds in the sky.",
+     "ಸಂಜೆ ಮಳೆ ಬರಬಹುದು. ಆಕಾಶದಲ್ಲಿ ಮೋಡಗಳಿವೆ."
+    ],
+    [
+     "B",
+     "तर्हि छत्रं नेष्यामि।",
+     "Then I will take an umbrella.",
+     "ಹಾಗಾದರೆ ಕೊಡೆ ತೆಗೆದುಕೊಂಡು ಹೋಗುತ್ತೇನೆ."
+    ],
+    [
+     "A",
+     "बेङ्गळूरुनगरे शीतकाले वातावरणं सुन्दरं भवति।",
+     "In Bengaluru the weather is lovely in winter.",
+     "ಬೆಂಗಳೂರಿನಲ್ಲಿ ಚಳಿಗಾಲದಲ್ಲಿ ಹವಾಮಾನ ಸುಂದರವಾಗಿರುತ್ತದೆ."
+    ],
+    [
+     "B",
+     "सत्यम्। मह्यं शीतकालः एव रोचते।",
+     "True. I like winter best.",
+     "ನಿಜ. ನನಗೆ ಚಳಿಗಾಲವೇ ಇಷ್ಟ."
+    ]
+   ]
+  },
+  {
+   "t": "कुटुम्बम्",
+   "en": "Talking about family",
+   "kn": "ಕುಟುಂಬದ ಬಗ್ಗೆ",
+   "l": [
+    [
+     "A",
+     "भवतः गृहे के के सन्ति?",
+     "Who all are there in your house?",
+     "ನಿಮ್ಮ ಮನೆಯಲ್ಲಿ ಯಾರು ಯಾರು ಇದ್ದಾರೆ?"
+    ],
+    [
+     "B",
+     "मम गृहे माता, पिता, पत्नी, अहं च स्मः।",
+     "In my house there are my mother, father, wife and I.",
+     "ನನ್ನ ಮನೆಯಲ್ಲಿ ಅಮ್ಮ, ಅಪ್ಪ, ಹೆಂಡತಿ ಮತ್ತು ನಾನು ಇದ್ದೇವೆ."
+    ],
+    [
+     "A",
+     "भवतः पिता किं करोति?",
+     "What does your father do?",
+     "ನಿಮ್ಮ ತಂದೆ ಏನು ಮಾಡುತ್ತಾರೆ?"
+    ],
+    [
+     "B",
+     "सः आपणं चालयति। अहम् अपि तत्र कार्यं करोमि।",
+     "He runs a shop. I also work there.",
+     "ಅವರು ಅಂಗಡಿ ನಡೆಸುತ್ತಾರೆ. ನಾನೂ ಅಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತೇನೆ."
+    ],
+    [
+     "A",
+     "भवतः भ्राता भगिनी वा अस्ति वा?",
+     "Do you have a brother or sister?",
+     "ನಿಮಗೆ ಸಹೋದರ ಅಥವಾ ಸಹೋದರಿ ಇದ್ದಾರೆಯೇ?"
+    ],
+    [
+     "B",
+     "आम्, एका भगिनी अस्ति। सा चेन्नैनगरे वसति।",
+     "Yes, I have one sister. She lives in Chennai.",
+     "ಹೌದು, ಒಬ್ಬ ಸಹೋದರಿ ಇದ್ದಾಳೆ. ಅವಳು ಚೆನ್ನೈನಲ್ಲಿ ವಾಸಿಸುತ್ತಾಳೆ."
+    ]
+   ]
+  },
+  {
+   "t": "दिनचर्या",
+   "en": "Daily routine",
+   "kn": "ದಿನಚರಿ",
+   "l": [
+    [
+     "A",
+     "भवान् प्रातः कदा उत्तिष्ठति?",
+     "When do you get up in the morning?",
+     "ನೀವು ಬೆಳಿಗ್ಗೆ ಯಾವಾಗ ಏಳುತ್ತೀರಿ?"
+    ],
+    [
+     "B",
+     "अहं पञ्चवादने उत्तिष्ठामि।",
+     "I get up at five o’clock.",
+     "ನಾನು ಐದು ಗಂಟೆಗೆ ಏಳುತ್ತೇನೆ."
+    ],
+    [
+     "A",
+     "अनन्तरं किं करोति?",
+     "What do you do after that?",
+     "ನಂತರ ಏನು ಮಾಡುತ್ತೀರಿ?"
+    ],
+    [
+     "B",
+     "स्नानं कृत्वा पूजां करोमि। ततः चायं पिबामि।",
+     "After bathing I do pūjā. Then I drink tea.",
+     "ಸ್ನಾನ ಮಾಡಿ ಪೂಜೆ ಮಾಡುತ್ತೇನೆ. ನಂತರ ಚಹಾ ಕುಡಿಯುತ್ತೇನೆ."
+    ],
+    [
+     "A",
+     "कार्यालयं कदा गच्छति?",
+     "When do you go to work?",
+     "ಕೆಲಸಕ್ಕೆ ಯಾವಾಗ ಹೋಗುತ್ತೀರಿ?"
+    ],
+    [
+     "B",
+     "नववादने गच्छामि, रात्रौ अष्टवादने प्रत्यागच्छामि।",
+     "I go at nine and come back at eight at night.",
+     "ಒಂಬತ್ತಕ್ಕೆ ಹೋಗುತ್ತೇನೆ, ರಾತ್ರಿ ಎಂಟಕ್ಕೆ ಹಿಂತಿರುಗುತ್ತೇನೆ."
+    ],
+    [
+     "A",
+     "रात्रौ कदा स्वपिति?",
+     "When do you sleep at night?",
+     "ರಾತ್ರಿ ಯಾವಾಗ ಮಲಗುತ್ತೀರಿ?"
+    ],
+    [
+     "B",
+     "प्रायः एकादशवादने स्वपिमि।",
+     "Usually I sleep at eleven.",
+     "ಸಾಮಾನ್ಯವಾಗಿ ಹನ್ನೊಂದು ಗಂಟೆಗೆ ಮಲಗುತ್ತೇನೆ."
+    ]
+   ]
+  },
+  {
+   "t": "अतिथिः",
+   "en": "A guest arrives",
+   "kn": "ಅತಿಥಿ ಬಂದಾಗ",
+   "l": [
+    [
+     "B",
+     "आगच्छतु, आगच्छतु! स्वागतम्।",
+     "Come in, come in! Welcome.",
+     "ಬನ್ನಿ, ಬನ್ನಿ! ಸ್ವಾಗತ."
+    ],
+    [
+     "A",
+     "नमस्कारः। बहुकालानन्तरं मिलितवन्तौ।",
+     "Hello. We are meeting after a long time.",
+     "ನಮಸ್ಕಾರ. ಬಹಳ ಕಾಲದ ನಂತರ ಭೇಟಿಯಾದೆವು."
+    ],
+    [
+     "B",
+     "उपविशतु। जलं पिबति वा, चायं वा?",
+     "Please sit. Will you have water, or tea?",
+     "ಕುಳಿತುಕೊಳ್ಳಿ. ನೀರು ಕುಡಿಯುತ್ತೀರಾ, ಅಥವಾ ಚಹಾ?"
+    ],
+    [
+     "A",
+     "केवलं जलं पर्याप्तम्। धन्यवादः।",
+     "Just water is enough. Thank you.",
+     "ನೀರು ಸಾಕು. ಧನ್ಯವಾದ."
+    ],
+    [
+     "B",
+     "अद्य अत्रैव भोजनं करोतु।",
+     "Have your meal here today.",
+     "ಇಂದು ಇಲ್ಲೇ ಊಟ ಮಾಡಿ."
+    ],
+    [
+     "A",
+     "अन्यदा अवश्यं करोमि। अद्य शीघ्रं गन्तव्यम्।",
+     "Another time for sure. Today I have to leave soon.",
+     "ಇನ್ನೊಮ್ಮೆ ಖಂಡಿತ ಮಾಡುತ್ತೇನೆ. ಇಂದು ಬೇಗ ಹೋಗಬೇಕು."
+    ],
+    [
+     "B",
+     "अस्तु। पुनः आगच्छतु।",
+     "All right. Please come again.",
+     "ಸರಿ. ಮತ್ತೆ ಬನ್ನಿ."
+    ]
+   ]
+  },
+  {
+   "t": "उपाहारगृहे",
+   "en": "At a restaurant",
+   "kn": "ಹೋಟೆಲ್‌ನಲ್ಲಿ",
+   "l": [
+    [
+     "A",
+     "किं आवश्यकम्?",
+     "What would you like?",
+     "ಏನು ಬೇಕು?"
+    ],
+    [
+     "B",
+     "द्वे दोसे, इड्ली च ददातु।",
+     "Please give two dosas and idli.",
+     "ಎರಡು ದೋಸೆ ಮತ್ತು ಇಡ್ಲಿ ಕೊಡಿ."
+    ],
+    [
+     "A",
+     "पेयं किम्? काफी वा चायं वा?",
+     "Anything to drink? Coffee or tea?",
+     "ಕುಡಿಯಲು ಏನು? ಕಾಫಿ ಅಥವಾ ಚಹಾ?"
+    ],
+    [
+     "B",
+     "द्वे काफी। शर्करा न्यूना भवतु।",
+     "Two coffees. Less sugar, please.",
+     "ಎರಡು ಕಾಫಿ. ಸಕ್ಕರೆ ಕಡಿಮೆ ಇರಲಿ."
+    ],
+    [
+     "A",
+     "अस्तु। दशनिमेषेषु आनयामि।",
+     "Fine. I will bring it in ten minutes.",
+     "ಸರಿ. ಹತ್ತು ನಿಮಿಷದಲ್ಲಿ ತರುತ್ತೇನೆ."
+    ],
+    [
+     "B",
+     "देयकं ददातु। कति अभवत्?",
+     "Please give the bill. How much is it?",
+     "ಬಿಲ್ ಕೊಡಿ. ಎಷ್ಟಾಯಿತು?"
+    ],
+    [
+     "A",
+     "शतं विंशतिः च रूप्यकाणि।",
+     "A hundred and twenty rupees.",
+     "ನೂರ ಇಪ್ಪತ್ತು ರೂಪಾಯಿ."
+    ]
+   ]
+  },
+  {
+   "t": "शाकापणे",
+   "en": "Buying vegetables",
+   "kn": "ತರಕಾರಿ ಕೊಳ್ಳುವಾಗ",
+   "l": [
+    [
+     "B",
+     "आलुकानि कथम्? एककिलोमितस्य मूल्यं किम्?",
+     "How are the potatoes? What is the price of one kilo?",
+     "ಆಲೂಗಡ್ಡೆ ಹೇಗಿದೆ? ಒಂದು ಕಿಲೋ ಬೆಲೆ ಎಷ್ಟು?"
+    ],
+    [
+     "A",
+     "चत्वारिंशत् रूप्यकाणि।",
+     "Forty rupees.",
+     "ನಲವತ್ತು ರೂಪಾಯಿ."
+    ],
+    [
+     "B",
+     "बहु अधिकम्! त्रिंशत् रूप्यकाणि ददामि।",
+     "That’s too much! I’ll give thirty.",
+     "ತುಂಬಾ ಹೆಚ್ಚು! ಮೂವತ್ತು ಕೊಡುತ್ತೇನೆ."
+    ],
+    [
+     "A",
+     "पञ्चत्रिंशत् ददातु। शाकाः नूतनाः सन्ति।",
+     "Give thirty-five. The vegetables are fresh.",
+     "ಮೂವತ್ತೈದು ಕೊಡಿ. ತರಕಾರಿ ತಾಜಾ ಇದೆ."
+    ],
+    [
+     "B",
+     "अस्तु। अर्धकिलोमितं पलाण्डुम् अपि ददातु।",
+     "All right. Give half a kilo of onions too.",
+     "ಸರಿ. ಅರ್ಧ ಕಿಲೋ ಈರುಳ್ಳಿಯೂ ಕೊಡಿ."
+    ],
+    [
+     "A",
+     "अन्यत् किमपि आवश्यकम् वा?",
+     "Do you need anything else?",
+     "ಬೇರೆ ಏನಾದರೂ ಬೇಕೇ?"
+    ],
+    [
+     "B",
+     "न, पर्याप्तम्। एतत् गृह्णातु।",
+     "No, that’s enough. Here, take this.",
+     "ಇಲ್ಲ, ಸಾಕು. ಇದನ್ನು ತೆಗೆದುಕೊಳ್ಳಿ."
+    ]
+   ]
+  },
+  {
+   "t": "संस्कृतकक्ष्या",
+   "en": "In the Sanskrit class",
+   "kn": "ಸಂಸ್ಕೃತ ತರಗತಿಯಲ್ಲಿ",
+   "l": [
+    [
+     "A",
+     "सर्वेभ्यः नमः। अद्य वयं नूतनं पाठं पठामः।",
+     "Greetings to all. Today we will study a new lesson.",
+     "ಎಲ್ಲರಿಗೂ ನಮಸ್ಕಾರ. ಇಂದು ನಾವು ಹೊಸ ಪಾಠ ಓದೋಣ."
+    ],
+    [
+     "B",
+     "गुरो, मम एकः प्रश्नः अस्ति।",
+     "Teacher, I have a question.",
+     "ಗುರುಗಳೇ, ನನ್ನದೊಂದು ಪ್ರಶ್ನೆ ಇದೆ."
+    ],
+    [
+     "A",
+     "पृच्छतु।",
+     "Please ask.",
+     "ಕೇಳಿ."
+    ],
+    [
+     "B",
+     "“गच्छति” इत्यस्य भूतकालरूपं किम्?",
+     "What is the past form of “gacchati”?",
+     "\"ಗಚ್ಛತಿ\"ಯ ಭೂತಕಾಲದ ರೂಪ ಏನು?"
+    ],
+    [
+     "A",
+     "अगच्छत् अथवा गतवान्।",
+     "Agacchat, or gatavān.",
+     "ಅಗಚ್ಛತ್ ಅಥವಾ ಗತವಾನ್."
+    ],
+    [
+     "B",
+     "अवगतम्। पुनः एकवारं वदतु।",
+     "Understood. Please say it once more.",
+     "ಅರ್ಥವಾಯಿತು. ಇನ್ನೊಮ್ಮೆ ಹೇಳಿ."
+    ],
+    [
+     "A",
+     "अगच्छत्, गतवान्। गृहकार्यं श्वः आनयन्तु।",
+     "Agacchat, gatavān. Bring your homework tomorrow.",
+     "ಅಗಚ್ಛತ್, ಗತವಾನ್. ನಾಳೆ ಮನೆಗೆಲಸ ತನ್ನಿ."
+    ]
+   ]
+  },
+  {
+   "t": "उत्सवः",
+   "en": "Festival greetings",
+   "kn": "ಹಬ್ಬದ ಶುಭಾಶಯ",
+   "l": [
+    [
+     "A",
+     "दीपावलीपर्वणः शुभाशयाः!",
+     "Happy Dīpāvalī!",
+     "ದೀಪಾವಳಿ ಹಬ್ಬದ ಶುಭಾಶಯಗಳು!"
+    ],
+    [
+     "B",
+     "भवते अपि शुभाशयाः!",
+     "Wishes to you too!",
+     "ನಿಮಗೂ ಶುಭಾಶಯಗಳು!"
+    ],
+    [
+     "A",
+     "उत्सवः कथम् आसीत्?",
+     "How was the festival?",
+     "ಹಬ್ಬ ಹೇಗಿತ್ತು?"
+    ],
+    [
+     "B",
+     "बहु सम्यक्। गृहे दीपान् प्रज्वालितवन्तः, मधुरं खादितवन्तः।",
+     "Very good. We lit lamps at home and ate sweets.",
+     "ತುಂಬಾ ಚೆನ್ನಾಗಿತ್ತು. ಮನೆಯಲ್ಲಿ ದೀಪ ಹಚ್ಚಿದೆವು, ಸಿಹಿ ತಿಂದೆವು."
+    ],
+    [
+     "A",
+     "मन्दिरं गतवन्तः वा?",
+     "Did you go to the temple?",
+     "ದೇವಸ್ಥಾನಕ್ಕೆ ಹೋಗಿದ್ದಿರಾ?"
+    ],
+    [
+     "B",
+     "आम्, प्रातः एव गतवन्तः। तत्र महान् जनसम्मर्दः आसीत्।",
+     "Yes, we went in the morning itself. There was a big crowd.",
+     "ಹೌದು, ಬೆಳಿಗ್ಗೆಯೇ ಹೋಗಿದ್ದೆವು. ಅಲ್ಲಿ ತುಂಬಾ ಜನಸಂದಣಿ ಇತ್ತು."
+    ]
+   ]
+  },
+  {
+   "t": "रुचिः",
+   "en": "Hobbies and interests",
+   "kn": "ಹವ್ಯಾಸಗಳು",
+   "l": [
+    [
+     "A",
+     "अवकाशसमये भवान् किं करोति?",
+     "What do you do in your free time?",
+     "ಬಿಡುವಿನ ಸಮಯದಲ್ಲಿ ನೀವು ಏನು ಮಾಡುತ್ತೀರಿ?"
+    ],
+    [
+     "B",
+     "अहं पुस्तकानि पठामि, सङ्गीतं च शृणोमि।",
+     "I read books and listen to music.",
+     "ನಾನು ಪುಸ್ತಕ ಓದುತ್ತೇನೆ ಮತ್ತು ಸಂಗೀತ ಕೇಳುತ್ತೇನೆ."
+    ],
+    [
+     "A",
+     "कीदृशं सङ्गीतं रोचते?",
+     "What kind of music do you like?",
+     "ಯಾವ ತರಹದ ಸಂಗೀತ ಇಷ್ಟ?"
+    ],
+    [
+     "B",
+     "मह्यं दासपदानि बहु रोचन्ते।",
+     "I like Dāsa songs very much.",
+     "ನನಗೆ ದಾಸರ ಪದಗಳು ತುಂಬಾ ಇಷ್ಟ."
+    ],
+    [
+     "A",
+     "क्रीडासु रुचिः अस्ति वा?",
+     "Are you interested in sports?",
+     "ಆಟಗಳಲ್ಲಿ ಆಸಕ್ತಿ ಇದೆಯೇ?"
+    ],
+    [
+     "B",
+     "आम्, क्रिकेट्-क्रीडां द्रष्टुम् इच्छामि।",
+     "Yes, I like watching cricket.",
+     "ಹೌದು, ಕ್ರಿಕೆಟ್ ನೋಡಲು ಇಷ್ಟಪಡುತ್ತೇನೆ."
+    ]
+   ]
+  },
+  {
+   "t": "क्षमायाचना",
+   "en": "Apologies and requests",
+   "kn": "ಕ್ಷಮೆ ಮತ್ತು ವಿನಂತಿ",
+   "l": [
+    [
+     "B",
+     "क्षम्यताम्, विलम्बः जातः।",
+     "Sorry, I am late.",
+     "ಕ್ಷಮಿಸಿ, ತಡವಾಯಿತು."
+    ],
+    [
+     "A",
+     "चिन्ता मास्तु। किं जातम्?",
+     "No problem. What happened?",
+     "ಪರವಾಗಿಲ್ಲ. ಏನಾಯಿತು?"
+    ],
+    [
+     "B",
+     "मार्गे यानसम्मर्दः आसीत्।",
+     "There was a traffic jam on the road.",
+     "ದಾರಿಯಲ್ಲಿ ಟ್ರಾಫಿಕ್ ಇತ್ತು."
+    ],
+    [
+     "A",
+     "अस्तु। कृपया द्वारं पिदधातु।",
+     "All right. Please close the door.",
+     "ಸರಿ. ದಯವಿಟ್ಟು ಬಾಗಿಲು ಮುಚ್ಚಿ."
+    ],
+    [
+     "B",
+     "अवश्यम्। किञ्चित् मन्दं वदतु, अहं पूर्णतया न अवगच्छामि।",
+     "Of course. Please speak a little slowly; I don’t fully understand.",
+     "ಖಂಡಿತ. ಸ್ವಲ್ಪ ನಿಧಾನವಾಗಿ ಮಾತನಾಡಿ, ನನಗೆ ಪೂರ್ತಿ ಅರ್ಥವಾಗುತ್ತಿಲ್ಲ."
+    ],
+    [
+     "A",
+     "अस्तु, शनैः शनैः वदामि।",
+     "Fine, I will speak slowly.",
+     "ಸರಿ, ನಿಧಾನವಾಗಿ ಮಾತನಾಡುತ್ತೇನೆ."
+    ]
+   ]
+  },
+  {
+   "t": "वित्तकोशे",
+   "en": "At the bank",
+   "kn": "ಬ್ಯಾಂಕ್‌ನಲ್ಲಿ",
+   "l": [
+    [
+     "B",
+     "नमस्ते। मम खाते धनं स्थापयितुम् इच्छामि।",
+     "Hello. I want to deposit money in my account.",
+     "ನಮಸ್ತೆ. ನನ್ನ ಖಾತೆಗೆ ಹಣ ಜಮಾ ಮಾಡಬೇಕು."
+    ],
+    [
+     "A",
+     "अस्तु। एतत् पत्रं पूरयतु।",
+     "All right. Please fill this form.",
+     "ಸರಿ. ಈ ಫಾರ್ಮ್ ತುಂಬಿ."
+    ],
+    [
+     "B",
+     "लेखनी अस्ति वा? मम लेखनी गृहे एव अस्ति।",
+     "Do you have a pen? Mine is at home.",
+     "ಪೆನ್ ಇದೆಯೇ? ನನ್ನ ಪೆನ್ ಮನೆಯಲ್ಲೇ ಇದೆ."
+    ],
+    [
+     "A",
+     "स्वीकरोतु। पत्रे हस्ताक्षरम् अपि करोतु।",
+     "Here, take it. Sign the form too.",
+     "ತೆಗೆದುಕೊಳ್ಳಿ. ಫಾರ್ಮ್‌ಗೆ ಸಹಿಯೂ ಮಾಡಿ."
+    ],
+    [
+     "B",
+     "कति समयः भविष्यति?",
+     "How long will it take?",
+     "ಎಷ್ಟು ಸಮಯ ಆಗುತ್ತದೆ?"
+    ],
+    [
+     "A",
+     "पञ्चनिमेषाः एव।",
+     "Only five minutes.",
+     "ಕೇವಲ ಐದು ನಿಮಿಷ."
     ]
    ]
   }
@@ -7957,120 +12621,6 @@
    "sandhi": "",
    "trans": "A washerman lived in Varanasi. On one day he was completely asleep. Thereupon a thief entered his house to take his things. But nothing was heard by the washerman. Behind his house an ass stood bound, and a dog was Having seen the thief, the ass addressed the dog. “This is your business. Therefore why don’t you, having made a sound aloud, awake the master?” The dog said: “Why do you do the meddling of this duty? I protect this house of this master day Because he has been contented for a long time, he does not understand my use. Now he is indifferent in even the giving of my food. If they do not experience sorrow then masters become indifferent towards their servants.” Thereafter the ass replied out of anger: “You are an evil guard. Therefore I shall do such that the master wakes.” Thus having spoken a sound was made aloud by him. Immediately awoken by the sound, due to anger by the interruption of sleep, having arisen the washerman beat the ass with a club. Therefore it is said: “If, due to the desire of the welfare of his master, a servant does the meddling of another’s business, he will quickly go to sorrow.”",
    "trans_kn": "ವಾರಾಣಸಿಯಲ್ಲಿ ಒಬ್ಬ ಅಗಸ ವಾಸಿಸುತ್ತಿದ್ದ. ಒಂದು ದಿನ ಅವನು ಗಾಢ ನಿದ್ರೆಯಲ್ಲಿದ್ದ. ಆಗ ವಸ್ತುಗಳನ್ನು ಕದಿಯಲು ಒಬ್ಬ ಕಳ್ಳ ಅವನ ಮನೆಗೆ ನುಗ್ಗಿದ. ಆದರೆ ಅಗಸನಿಗೆ ಏನೂ ಕೇಳಿಸಲಿಲ್ಲ. ಅವನ ಮನೆಯ ಹಿಂದೆ ಒಂದು ಕತ್ತೆ ಕಟ್ಟಿಹಾಕಲ್ಪಟ್ಟಿತ್ತು, ಒಂದು ನಾಯಿ ಕುಳಿತಿತ್ತು. ಕಳ್ಳನನ್ನು ಕಂಡು ಕತ್ತೆ ನಾಯಿಗೆ ಹೇಳಿತು: \"ಇದು ನಿನ್ನದೇ ಕೆಲಸ. ಹಾಗಾದರೆ ನೀನು ಜೋರಾಗಿ ಬೊಗಳಿ ಯಜಮಾನನನ್ನು ಏಕೆ ಎಬ್ಬಿಸುತ್ತಿಲ್ಲ?\" ನಾಯಿ ಹೇಳಿತು: \"ಈ ಕೆಲಸದ ಬಗ್ಗೆ ನೀನೇಕೆ ತಲೆ ಹಾಕುತ್ತೀಯೆ? ನಾನು ಹಗಲೂ ರಾತ್ರಿ ಈ ಯಜಮಾನನ ಮನೆಯನ್ನು ಕಾಯುತ್ತೇನೆ. ಬಹುಕಾಲದಿಂದ ನೆಮ್ಮದಿಯಾಗಿರುವುದರಿಂದ ಇವನಿಗೆ ನನ್ನ ಉಪಯೋಗ ಅರ್ಥವಾಗುತ್ತಿಲ್ಲ. ಈಗ ನನಗೆ ಊಟ ಕೊಡುವುದರಲ್ಲೂ ಅವನು ಅನಾದರ ತೋರುತ್ತಾನೆ. ಕಷ್ಟ ಅನುಭವಿಸದಿದ್ದರೆ ಯಜಮಾನರು ಸೇವಕರ ಬಗ್ಗೆ ಅನಾದರ ತೋರುತ್ತಾರೆ.\" ಆಗ ಕತ್ತೆ ಕೋಪದಿಂದ ಉತ್ತರಿಸಿತು: \"ನೀನು ಪಾಪಿ ಕಾವಲುಗಾರ. ಯಜಮಾನ ಎಚ್ಚರಗೊಳ್ಳುವಂತೆ ನಾನೇ ಮಾಡುತ್ತೇನೆ.\" ಹೀಗೆ ಹೇಳಿ ಅದು ಜೋರಾಗಿ ಅರಚಿತು. ಆ ಸದ್ದಿಗೆ ತಕ್ಷಣ ಎಚ್ಚರಗೊಂಡ ಅಗಸ, ನಿದ್ರಾಭಂಗದ ಕೋಪದಿಂದ ಎದ್ದು ಕತ್ತೆಯನ್ನು ದೊಣ್ಣೆಯಿಂದ ಹೊಡೆದ. ಆದ್ದರಿಂದಲೇ ಹೇಳಿದ್ದಾರೆ: ಯಜಮಾನನ ಹಿತದ ಆಸೆಯಿಂದಲೂ ಸೇವಕನು ಬೇರೆಯವರ ಕೆಲಸದಲ್ಲಿ ತಲೆಹಾಕಿದರೆ ಬೇಗನೆ ದುಃಖಕ್ಕೆ ಒಳಗಾಗುತ್ತಾನೆ."
-  }
- ],
- "SHLOKAS": [
-  {
-   "sa": "हरिः सर्वोत्तमः वायुः जीवोत्तमः।",
-   "en": "Hari is supreme; Vāyu is the foremost among souls.",
-   "kn": "ಹರಿ ಸರ್ವೋತ್ತಮ, ವಾಯು ಜೀವೋತ್ತಮ.",
-   "src": "Mādhva tenet (widely quoted)",
-   "ver": "memory"
-  },
-  {
-   "sa": "वन्दे वन्द्यं सदानन्दं वासुदेवं निरञ्जनम्।\nइन्दिरापतिमाद्यादिवरदेशवरप्रदम्॥",
-   "en": "I bow to Vāsudeva — worthy of worship, ever-blissful, spotless, Lord of Indirā, giver of boons even to the first gods.",
-   "kn": "ವಂದನೀಯನೂ ಸದಾನಂದನೂ ನಿರಂಜನನೂ ಇಂದಿರಾಪತಿಯೂ ಆದ ವಾಸುದೇವನಿಗೆ ವಂದಿಸುತ್ತೇನೆ.",
-   "src": "Dvādaśa Stotra 1.1 — Śrī Madhvācārya (checked against published text)",
-   "ver": "checked"
-  },
-  {
-   "sa": "पूज्याय राघवेन्द्राय सत्यधर्मरताय च।\nभजतां कल्पवृक्षाय नमतां कामधेनवे॥",
-   "en": "Salutations to the revered Rāghavendra, devoted to truth and dharma — a wish-tree to those who worship, a wish-cow to those who bow.",
-   "kn": "ಸತ್ಯಧರ್ಮನಿರತರೂ ಪೂಜ್ಯರೂ, ಭಜಿಸುವವರಿಗೆ ಕಲ್ಪವೃಕ್ಷವೂ ನಮಿಸುವವರಿಗೆ ಕಾಮಧೇನುವೂ ಆದ ರಾಘವೇಂದ್ರರಿಗೆ ನಮಸ್ಕಾರ.",
-   "src": "Aṇu Rāghavendra Stotra v.1 — Appaṇṇācārya (checked against published text)",
-   "ver": "checked"
-  },
-  {
-   "sa": "उद्यमेन हि सिध्यन्ति कार्याणि न मनोरथैः।\nन हि सुप्तस्य सिंहस्य प्रविशन्ति मुखे मृगाः॥",
-   "en": "Tasks succeed by effort, not by wishes; deer do not walk into the mouth of a sleeping lion.",
-   "kn": "ಕೆಲಸಗಳು ಪ್ರಯತ್ನದಿಂದ ಸಿದ್ಧಿಸುತ್ತವೆ, ಆಸೆಗಳಿಂದಲ್ಲ; ಮಲಗಿದ ಸಿಂಹದ ಬಾಯಿಗೆ ಜಿಂಕೆಗಳು ತಾವಾಗಿ ಬರುವುದಿಲ್ಲ.",
-   "src": "Hitopadeśa (widely quoted; not yet checked against an edition)",
-   "ver": "memory"
-  },
-  {
-   "sa": "विद्या ददाति विनयं विनयाद्याति पात्रताम्।\nपात्रत्वाद्धनमाप्नोति धनाद्धर्मं ततः सुखम्॥",
-   "en": "Learning gives humility; humility, worthiness; worthiness, wealth; wealth, dharma; and from that, happiness.",
-   "kn": "ವಿದ್ಯೆ ವಿನಯ ಕೊಡುತ್ತದೆ; ವಿನಯದಿಂದ ಯೋಗ್ಯತೆ, ಯೋಗ್ಯತೆಯಿಂದ ಧನ, ಧನದಿಂದ ಧರ್ಮ, ಅದರಿಂದ ಸುಖ.",
-   "src": "Hitopadeśa (widely quoted; not yet checked against an edition)",
-   "ver": "memory"
-  },
-  {
-   "sa": "सत्यं ब्रूयात् प्रियं ब्रूयात् न ब्रूयात् सत्यमप्रियम्।",
-   "en": "Speak the truth, speak pleasantly; do not speak an unpleasant truth.",
-   "kn": "ಸತ್ಯವನ್ನು ಹೇಳು, ಪ್ರಿಯವಾದುದನ್ನು ಹೇಳು; ಅಪ್ರಿಯ ಸತ್ಯವನ್ನು ಹೇಳಬೇಡ.",
-   "src": "Manusmṛti 4.138 (widely quoted; not yet checked against an edition)",
-   "ver": "memory"
-  },
-  {
-   "sa": "वन्दे मुकुन्दमरविन्ददलायताक्षं कुन्देन्दुशङ्खदशनं शिशुगोपवेषम् ।\nइन्द्रादिदेवगणवन्दितपादपीठं वृन्दावनालयमहं वसुदेवसूनुम् ॥",
-   "en": "I bow to Mukunda — lotus-eyed, with teeth white as jasmine, moon and conch, dressed as a cowherd boy; whose footstool is worshipped by Indra and the gods, who dwells in Vṛndāvana, the son of Vasudeva.",
-   "kn": "ಕಮಲದಳದಂತೆ ಕಣ್ಣುಳ್ಳ, ಗೋಪಬಾಲಕನ ವೇಷದ, ಇಂದ್ರಾದಿ ದೇವತೆಗಳು ವಂದಿಸುವ ಪಾದಪೀಠವುಳ್ಳ, ವೃಂದಾವನವಾಸಿ ವಸುದೇವಸುತ ಮುಕುಂದನಿಗೆ ನಮಿಸುತ್ತೇನೆ.",
-   "src": "Kulaśekhara, Mukundamālā — Kāvyamālā ed. 1886, GRETIL via Ambuda (CC BY-NC-SA 4.0) · v.1",
-   "ver": "source"
-  },
-  {
-   "sa": "मुकुन्द मूर्ध्ना प्रणिपत्य याचे भवन्तमेकान्तमियन्तमर्थम् ।\nअविस्मृतिस्त्वच्चरणारविन्दे भवे भवे मेऽस्तु भवत्प्रसादात् ॥",
-   "en": "O Mukunda, bowing my head I ask you only this: by your grace, in birth after birth, may I never forget your lotus feet.",
-   "kn": "ಮುಕುಂದ, ತಲೆಬಾಗಿ ನಿನ್ನಲ್ಲಿ ಇಷ್ಟನ್ನೇ ಬೇಡುತ್ತೇನೆ — ನಿನ್ನ ಅನುಗ್ರಹದಿಂದ ಜನ್ಮಜನ್ಮಗಳಲ್ಲೂ ನಿನ್ನ ಪಾದಕಮಲಗಳ ಮರೆವು ನನಗೆ ಬಾರದಿರಲಿ.",
-   "src": "Kulaśekhara, Mukundamālā — Kāvyamālā ed. 1886, GRETIL via Ambuda (CC BY-NC-SA 4.0) · v.3",
-   "ver": "source"
-  },
-  {
-   "sa": "नास्था धर्मे न वसुनिचये नैव कामोपभोगे यद्भाव्यं तद्भवतु भगवन्पूर्वकर्मानुरूपम् ।\nएतत्प्रार्थ्यं मम बहुमतं जन्मजन्मान्तरेऽपि त्वत्पादाम्भोरुहयुगगता निश्चला भक्तिरस्तु ॥",
-   "en": "I have no attachment to merit, wealth or pleasure; let whatever must come, come as my past deeds decide. This alone I ask, Lord, in every birth: unwavering devotion to your lotus feet.",
-   "kn": "ಧರ್ಮ, ಸಂಪತ್ತು, ಭೋಗಗಳಲ್ಲಿ ನನಗೆ ಆಸಕ್ತಿ ಇಲ್ಲ; ಪೂರ್ವಕರ್ಮದಂತೆ ಏನಾಗಬೇಕೋ ಆಗಲಿ. ಜನ್ಮಜನ್ಮಾಂತರದಲ್ಲೂ ನಿನ್ನ ಪಾದಕಮಲಗಳಲ್ಲಿ ಅಚಲ ಭಕ್ತಿ ಇರಲಿ — ಇದೇ ನನ್ನ ಪ್ರಾರ್ಥನೆ.",
-   "src": "Kulaśekhara, Mukundamālā — Kāvyamālā ed. 1886, GRETIL via Ambuda (CC BY-NC-SA 4.0) · v.6",
-   "ver": "source"
-  },
-  {
-   "sa": "इदं शरीरं परिणामपेशलं पतत्यवश्यं श्लथसंधि जर्जरम् ।\nकिमौषधैः क्लिश्यसि मूढ दुर्मते निरामयं कृष्णरसायनं पिब ॥",
-   "en": "This body, fair only for a while, will surely fall, its joints loosened and worn. Why trouble yourself with medicines, foolish mind? Drink the elixir of Kṛṣṇa, which cures all ills.",
-   "kn": "ಈ ದೇಹ ಸ್ವಲ್ಪ ಕಾಲ ಮಾತ್ರ ಸುಂದರ; ಕೀಲುಗಳು ಸಡಿಲವಾಗಿ ಖಂಡಿತ ಬೀಳುತ್ತದೆ. ಮೂಢ ಮನಸ್ಸೇ, ಔಷಧಗಳಿಂದ ಏಕೆ ಕಷ್ಟಪಡುವೆ? ರೋಗರಹಿತ ಕೃಷ್ಣರಸಾಯನವನ್ನು ಕುಡಿ.",
-   "src": "Kulaśekhara, Mukundamālā — Kāvyamālā ed. 1886, GRETIL via Ambuda (CC BY-NC-SA 4.0) · v.21",
-   "ver": "source"
-  },
-  {
-   "sa": "विद्या नाम नरस्य रूपमधिकं प्रच्छन्नगुप्तं धनं विद्या भोगकरी यशःसुखकरी विद्या गुरूणां गुरुः ।\nविद्या बन्धुजनो विदेशगमने विद्या परा देवता विद्या राजसु पूज्यते न तु धनं विद्याविहीनः पशुः ॥",
-   "en": "Learning is a person’s greatest beauty, a hidden treasure; it brings enjoyment, fame and happiness; it is the teacher of teachers, a friend abroad, the highest deity. Kings honour learning, not wealth — without learning one is an animal.",
-   "kn": "ವಿದ್ಯೆಯೇ ಮನುಷ್ಯನ ಶ್ರೇಷ್ಠ ಸೌಂದರ್ಯ, ಗುಪ್ತ ಧನ; ಭೋಗ, ಕೀರ್ತಿ, ಸುಖ ಕೊಡುತ್ತದೆ; ಗುರುಗಳ ಗುರು, ಪರದೇಶದಲ್ಲಿ ಬಂಧು, ಪರಮ ದೈವ. ರಾಜರು ಗೌರವಿಸುವುದು ವಿದ್ಯೆಯನ್ನು, ಧನವನ್ನಲ್ಲ — ವಿದ್ಯೆ ಇಲ್ಲದವನು ಪಶು.",
-   "src": "Bhartṛhari, Nītiśataka — GRETIL text via Ambuda (CC BY-NC-SA 4.0) · v.20",
-   "ver": "source"
-  },
-  {
-   "sa": "केयूराणि न भूषयन्ति पुरुषं हारा न चन्द्रोज्ज्वला न स्नानं न विलेपनं न कुसुमं नालङ्कृता मूर्धजाः ।\nवाण्येका समलङ्करोति पुरुषं या संस्कृता धार्यते क्षीयन्ते खलु भूषणानि सततं वाग्भूषणं भूषणम् ॥",
-   "en": "Armlets do not adorn a person, nor moon-bright necklaces, baths, perfumes, flowers or dressed hair. Only refined speech truly adorns; all ornaments wear away — speech is the lasting ornament.",
-   "kn": "ಕಡಗ, ಹಾರ, ಸ್ನಾನ, ಲೇಪನ, ಹೂವು, ಅಲಂಕೃತ ಕೂದಲು — ಇವು ಮನುಷ್ಯನನ್ನು ಅಲಂಕರಿಸುವುದಿಲ್ಲ. ಸಂಸ್ಕಾರಯುತ ಮಾತೊಂದೇ ನಿಜವಾದ ಅಲಂಕಾರ; ಆಭರಣಗಳು ಸವೆಯುತ್ತವೆ, ವಾಗ್ಭೂಷಣವೇ ಭೂಷಣ.",
-   "src": "Bhartṛhari, Nītiśataka — GRETIL text via Ambuda (CC BY-NC-SA 4.0) · v.19",
-   "ver": "source"
-  },
-  {
-   "sa": "जाड्यं धियो हरति सिञ्चति वाचि सत्यं मानोन्नतिं दिशति पापमपाकरोति ।\nचेतः प्रसादयति दिक्षु तनोति कीर्तिं सत्सङ्गतिः कथय किं न करोति पुंसाम् ॥",
-   "en": "Good company removes dullness of mind, pours truth into speech, raises honour, removes sin, calms the heart and spreads fame everywhere — tell me, what does good company not do for a person?",
-   "kn": "ಸತ್ಸಂಗ ಬುದ್ಧಿಯ ಜಡತ್ವವನ್ನು ಹೋಗಲಾಡಿಸುತ್ತದೆ, ಮಾತಿನಲ್ಲಿ ಸತ್ಯ ತುಂಬುತ್ತದೆ, ಗೌರವ ಹೆಚ್ಚಿಸುತ್ತದೆ, ಪಾಪ ಕಳೆಯುತ್ತದೆ, ಮನಸ್ಸನ್ನು ಪ್ರಸನ್ನಗೊಳಿಸುತ್ತದೆ, ಕೀರ್ತಿ ಹರಡುತ್ತದೆ — ಸತ್ಸಂಗ ಏನು ಮಾಡುವುದಿಲ್ಲ?",
-   "src": "Bhartṛhari, Nītiśataka — GRETIL text via Ambuda (CC BY-NC-SA 4.0) · v.23",
-   "ver": "source"
-  },
-  {
-   "sa": "प्रारभ्यते न खलु विघ्नभयेन नीचैः प्रारभ्य विघ्नविहता विरमन्ति मध्याः ।\nविघ्नैः पुनः पुनरपि प्रतिहन्यमानाः प्रारब्धमुत्तमजना न परित्यजन्ति ॥",
-   "en": "The lowly never begin, fearing obstacles; the middling begin but stop when obstacles strike; the best, though struck again and again, never abandon what they have begun.",
-   "kn": "ಕೀಳುಜನರು ವಿಘ್ನಭಯದಿಂದ ಆರಂಭಿಸುವುದೇ ಇಲ್ಲ; ಮಧ್ಯಮರು ಆರಂಭಿಸಿ ವಿಘ್ನ ಬಂದಾಗ ನಿಲ್ಲಿಸುತ್ತಾರೆ; ಉತ್ತಮರು ಮತ್ತೆ ಮತ್ತೆ ವಿಘ್ನ ಬಂದರೂ ಆರಂಭಿಸಿದ್ದನ್ನು ಬಿಡುವುದಿಲ್ಲ.",
-   "src": "Bhartṛhari, Nītiśataka — GRETIL text via Ambuda (CC BY-NC-SA 4.0) · v.27",
-   "ver": "source"
-  },
-  {
-   "sa": "अज्ञः सुखमाराध्यः सुखतरमाराध्यते विशेषज्ञः ।\nज्ञानलवदुर्विदग्धं ब्रह्मापि तं नरं न रञ्जयति ॥",
-   "en": "The ignorant are easily convinced, the truly learned even more easily; but a person puffed up with a little knowledge — not even Brahmā can win him over.",
-   "kn": "ಅಜ್ಞಾನಿಯನ್ನು ಸುಲಭವಾಗಿ ಒಪ್ಪಿಸಬಹುದು, ಜ್ಞಾನಿಯನ್ನು ಇನ್ನೂ ಸುಲಭವಾಗಿ; ಆದರೆ ಅಲ್ಪಜ್ಞಾನದಿಂದ ಗರ್ವಪಟ್ಟವನನ್ನು ಬ್ರಹ್ಮನೂ ಒಪ್ಪಿಸಲಾರ.",
-   "src": "Bhartṛhari, Nītiśataka — GRETIL text via Ambuda (CC BY-NC-SA 4.0) · v.3",
-   "ver": "source"
-  },
-  {
-   "sa": "येषां न विद्या न तपो न दानं ज्ञानं न शीलं न गुणो न धर्मः ।\nते मर्त्यलोके भुवि भारभूता मनुष्यरूपेण मृगाश्चरन्ति ॥",
-   "en": "Those who have neither learning, austerity, charity, knowledge, good conduct, virtue nor dharma are a burden on the earth — animals wandering in human form.",
-   "kn": "ವಿದ್ಯೆ, ತಪಸ್ಸು, ದಾನ, ಜ್ಞಾನ, ಶೀಲ, ಗುಣ, ಧರ್ಮ — ಇವು ಯಾವುದೂ ಇಲ್ಲದವರು ಭೂಮಿಗೆ ಭಾರ; ಮನುಷ್ಯರೂಪದಲ್ಲಿ ಅಲೆಯುವ ಪಶುಗಳು.",
-   "src": "Bhartṛhari, Nītiśataka — GRETIL text via Ambuda (CC BY-NC-SA 4.0) · v.13",
-   "ver": "source"
   }
  ],
  "COMMON_G": {
@@ -18577,5 +23127,112 @@
    "having examined",
    "ಪರೀಕ್ಷಿಸಿ"
   ]
+ },
+ "TOPICS": {
+  "body": {
+   "sa": "शरीरम्",
+   "en": "Body",
+   "kn": "ದೇಹ"
+  },
+  "family": {
+   "sa": "कुटुम्बम्",
+   "en": "Family",
+   "kn": "ಕುಟುಂಬ"
+  },
+  "food": {
+   "sa": "भोजनम्",
+   "en": "Food",
+   "kn": "ಆಹಾರ"
+  },
+  "home": {
+   "sa": "गृहम्",
+   "en": "Home",
+   "kn": "ಮನೆ"
+  },
+  "nature": {
+   "sa": "प्रकृतिः",
+   "en": "Nature",
+   "kn": "ಪ್ರಕೃತಿ"
+  },
+  "animals": {
+   "sa": "पशवः",
+   "en": "Animals",
+   "kn": "ಪ್ರಾಣಿಗಳು"
+  },
+  "birds": {
+   "sa": "खगाः",
+   "en": "Birds & small creatures",
+   "kn": "ಪಕ್ಷಿಗಳು, ಕೀಟಗಳು"
+  },
+  "colours": {
+   "sa": "वर्णाः",
+   "en": "Colours",
+   "kn": "ಬಣ್ಣಗಳು"
+  },
+  "numbers": {
+   "sa": "सङ्ख्याः",
+   "en": "Numbers",
+   "kn": "ಸಂಖ್ಯೆಗಳು"
+  },
+  "time": {
+   "sa": "कालः",
+   "en": "Time & days",
+   "kn": "ಕಾಲ, ದಿನಗಳು"
+  },
+  "town": {
+   "sa": "नगरम्",
+   "en": "Town & travel",
+   "kn": "ಊರು, ಪ್ರಯಾಣ"
+  },
+  "people": {
+   "sa": "जनाः",
+   "en": "People & work",
+   "kn": "ಜನರು, ಕೆಲಸ"
+  },
+  "clothes": {
+   "sa": "वस्त्राणि",
+   "en": "Clothes",
+   "kn": "ಉಡುಪು"
+  },
+  "study": {
+   "sa": "अध्ययनम्",
+   "en": "School & study",
+   "kn": "ಶಾಲೆ, ಓದು"
+  },
+  "modern": {
+   "sa": "आधुनिकम्",
+   "en": "Modern things",
+   "kn": "ಆಧುನಿಕ ವಸ್ತುಗಳು"
+  },
+  "quality": {
+   "sa": "गुणाः",
+   "en": "Describing words",
+   "kn": "ವಿಶೇಷಣಗಳು"
+  },
+  "verbs": {
+   "sa": "क्रियाः",
+   "en": "Everyday verbs",
+   "kn": "ದೈನಂದಿನ ಕ್ರಿಯೆಗಳು"
+  },
+  "small": {
+   "sa": "अव्ययानि",
+   "en": "Small words",
+   "kn": "ಸಣ್ಣ ಪದಗಳು"
+  },
+  "feel": {
+   "sa": "भावाः",
+   "en": "Feelings",
+   "kn": "ಭಾವನೆಗಳು"
+  },
+  "puja": {
+   "sa": "पूजा",
+   "en": "Worship",
+   "kn": "ಪೂಜೆ"
+  },
+  "misc": {
+   "sa": "विविधम्",
+   "en": "Mixed",
+   "kn": "ವಿವಿಧ"
+  }
  }
 }
