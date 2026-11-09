@@ -1,7 +1,7 @@
 {
- "version": 6,
+ "version": 7,
  "updated": "2026-11-09",
- "notes": "v6: 722 words in 20 topics and 49 synonym families, 14 new conversation scenes (22 in all). The Verses section was removed. The new words and dialogues are not yet checked by a teacher.",
+ "notes": "v6: 722 words in 20 topics and 49 synonym families, 14 new conversation scenes (22 in all). The new words and dialogues are not yet checked by a teacher. v7: ślokas and subhāṣitas restored — one a day on the home page.",
  "VARGAS": [
   {
    "id": "kantha",
@@ -23234,5 +23234,119 @@
    "en": "Mixed",
    "kn": "ವಿವಿಧ"
   }
- }
+ },
+ "SHLOKAS": [
+  {
+   "sa": "हरिः सर्वोत्तमः वायुः जीवोत्तमः।",
+   "en": "Hari is supreme; Vāyu is the foremost among souls.",
+   "kn": "ಹರಿ ಸರ್ವೋತ್ತಮ, ವಾಯು ಜೀವೋತ್ತಮ.",
+   "src": "Mādhva tenet (widely quoted)",
+   "ver": "memory"
+  },
+  {
+   "sa": "वन्दे वन्द्यं सदानन्दं वासुदेवं निरञ्जनम्।\nइन्दिरापतिमाद्यादिवरदेशवरप्रदम्॥",
+   "en": "I bow to Vāsudeva — worthy of worship, ever-blissful, spotless, Lord of Indirā, giver of boons even to the first gods.",
+   "kn": "ವಂದನೀಯನೂ ಸದಾನಂದನೂ ನಿರಂಜನನೂ ಇಂದಿರಾಪತಿಯೂ ಆದ ವಾಸುದೇವನಿಗೆ ವಂದಿಸುತ್ತೇನೆ.",
+   "src": "Dvādaśa Stotra 1.1 — Śrī Madhvācārya (checked against published text)",
+   "ver": "checked"
+  },
+  {
+   "sa": "पूज्याय राघवेन्द्राय सत्यधर्मरताय च।\nभजतां कल्पवृक्षाय नमतां कामधेनवे॥",
+   "en": "Salutations to the revered Rāghavendra, devoted to truth and dharma — a wish-tree to those who worship, a wish-cow to those who bow.",
+   "kn": "ಸತ್ಯಧರ್ಮನಿರತರೂ ಪೂಜ್ಯರೂ, ಭಜಿಸುವವರಿಗೆ ಕಲ್ಪವೃಕ್ಷವೂ ನಮಿಸುವವರಿಗೆ ಕಾಮಧೇನುವೂ ಆದ ರಾಘವೇಂದ್ರರಿಗೆ ನಮಸ್ಕಾರ.",
+   "src": "Aṇu Rāghavendra Stotra v.1 — Appaṇṇācārya (checked against published text)",
+   "ver": "checked"
+  },
+  {
+   "sa": "उद्यमेन हि सिध्यन्ति कार्याणि न मनोरथैः।\nन हि सुप्तस्य सिंहस्य प्रविशन्ति मुखे मृगाः॥",
+   "en": "Tasks succeed by effort, not by wishes; deer do not walk into the mouth of a sleeping lion.",
+   "kn": "ಕೆಲಸಗಳು ಪ್ರಯತ್ನದಿಂದ ಸಿದ್ಧಿಸುತ್ತವೆ, ಆಸೆಗಳಿಂದಲ್ಲ; ಮಲಗಿದ ಸಿಂಹದ ಬಾಯಿಗೆ ಜಿಂಕೆಗಳು ತಾವಾಗಿ ಬರುವುದಿಲ್ಲ.",
+   "src": "Hitopadeśa (widely quoted; not yet checked against an edition)",
+   "ver": "memory"
+  },
+  {
+   "sa": "विद्या ददाति विनयं विनयाद्याति पात्रताम्।\nपात्रत्वाद्धनमाप्नोति धनाद्धर्मं ततः सुखम्॥",
+   "en": "Learning gives humility; humility, worthiness; worthiness, wealth; wealth, dharma; and from that, happiness.",
+   "kn": "ವಿದ್ಯೆ ವಿನಯ ಕೊಡುತ್ತದೆ; ವಿನಯದಿಂದ ಯೋಗ್ಯತೆ, ಯೋಗ್ಯತೆಯಿಂದ ಧನ, ಧನದಿಂದ ಧರ್ಮ, ಅದರಿಂದ ಸುಖ.",
+   "src": "Hitopadeśa (widely quoted; not yet checked against an edition)",
+   "ver": "memory"
+  },
+  {
+   "sa": "सत्यं ब्रूयात् प्रियं ब्रूयात् न ब्रूयात् सत्यमप्रियम्।",
+   "en": "Speak the truth, speak pleasantly; do not speak an unpleasant truth.",
+   "kn": "ಸತ್ಯವನ್ನು ಹೇಳು, ಪ್ರಿಯವಾದುದನ್ನು ಹೇಳು; ಅಪ್ರಿಯ ಸತ್ಯವನ್ನು ಹೇಳಬೇಡ.",
+   "src": "Manusmṛti 4.138 (widely quoted; not yet checked against an edition)",
+   "ver": "memory"
+  },
+  {
+   "sa": "वन्दे मुकुन्दमरविन्ददलायताक्षं कुन्देन्दुशङ्खदशनं शिशुगोपवेषम् ।\nइन्द्रादिदेवगणवन्दितपादपीठं वृन्दावनालयमहं वसुदेवसूनुम् ॥",
+   "en": "I bow to Mukunda — lotus-eyed, with teeth white as jasmine, moon and conch, dressed as a cowherd boy; whose footstool is worshipped by Indra and the gods, who dwells in Vṛndāvana, the son of Vasudeva.",
+   "kn": "ಕಮಲದಳದಂತೆ ಕಣ್ಣುಳ್ಳ, ಗೋಪಬಾಲಕನ ವೇಷದ, ಇಂದ್ರಾದಿ ದೇವತೆಗಳು ವಂದಿಸುವ ಪಾದಪೀಠವುಳ್ಳ, ವೃಂದಾವನವಾಸಿ ವಸುದೇವಸುತ ಮುಕುಂದನಿಗೆ ನಮಿಸುತ್ತೇನೆ.",
+   "src": "Kulaśekhara, Mukundamālā — Kāvyamālā ed. 1886, GRETIL via Ambuda (CC BY-NC-SA 4.0) · v.1",
+   "ver": "source"
+  },
+  {
+   "sa": "मुकुन्द मूर्ध्ना प्रणिपत्य याचे भवन्तमेकान्तमियन्तमर्थम् ।\nअविस्मृतिस्त्वच्चरणारविन्दे भवे भवे मेऽस्तु भवत्प्रसादात् ॥",
+   "en": "O Mukunda, bowing my head I ask you only this: by your grace, in birth after birth, may I never forget your lotus feet.",
+   "kn": "ಮುಕುಂದ, ತಲೆಬಾಗಿ ನಿನ್ನಲ್ಲಿ ಇಷ್ಟನ್ನೇ ಬೇಡುತ್ತೇನೆ — ನಿನ್ನ ಅನುಗ್ರಹದಿಂದ ಜನ್ಮಜನ್ಮಗಳಲ್ಲೂ ನಿನ್ನ ಪಾದಕಮಲಗಳ ಮರೆವು ನನಗೆ ಬಾರದಿರಲಿ.",
+   "src": "Kulaśekhara, Mukundamālā — Kāvyamālā ed. 1886, GRETIL via Ambuda (CC BY-NC-SA 4.0) · v.3",
+   "ver": "source"
+  },
+  {
+   "sa": "नास्था धर्मे न वसुनिचये नैव कामोपभोगे यद्भाव्यं तद्भवतु भगवन्पूर्वकर्मानुरूपम् ।\nएतत्प्रार्थ्यं मम बहुमतं जन्मजन्मान्तरेऽपि त्वत्पादाम्भोरुहयुगगता निश्चला भक्तिरस्तु ॥",
+   "en": "I have no attachment to merit, wealth or pleasure; let whatever must come, come as my past deeds decide. This alone I ask, Lord, in every birth: unwavering devotion to your lotus feet.",
+   "kn": "ಧರ್ಮ, ಸಂಪತ್ತು, ಭೋಗಗಳಲ್ಲಿ ನನಗೆ ಆಸಕ್ತಿ ಇಲ್ಲ; ಪೂರ್ವಕರ್ಮದಂತೆ ಏನಾಗಬೇಕೋ ಆಗಲಿ. ಜನ್ಮಜನ್ಮಾಂತರದಲ್ಲೂ ನಿನ್ನ ಪಾದಕಮಲಗಳಲ್ಲಿ ಅಚಲ ಭಕ್ತಿ ಇರಲಿ — ಇದೇ ನನ್ನ ಪ್ರಾರ್ಥನೆ.",
+   "src": "Kulaśekhara, Mukundamālā — Kāvyamālā ed. 1886, GRETIL via Ambuda (CC BY-NC-SA 4.0) · v.6",
+   "ver": "source"
+  },
+  {
+   "sa": "इदं शरीरं परिणामपेशलं पतत्यवश्यं श्लथसंधि जर्जरम् ।\nकिमौषधैः क्लिश्यसि मूढ दुर्मते निरामयं कृष्णरसायनं पिब ॥",
+   "en": "This body, fair only for a while, will surely fall, its joints loosened and worn. Why trouble yourself with medicines, foolish mind? Drink the elixir of Kṛṣṇa, which cures all ills.",
+   "kn": "ಈ ದೇಹ ಸ್ವಲ್ಪ ಕಾಲ ಮಾತ್ರ ಸುಂದರ; ಕೀಲುಗಳು ಸಡಿಲವಾಗಿ ಖಂಡಿತ ಬೀಳುತ್ತದೆ. ಮೂಢ ಮನಸ್ಸೇ, ಔಷಧಗಳಿಂದ ಏಕೆ ಕಷ್ಟಪಡುವೆ? ರೋಗರಹಿತ ಕೃಷ್ಣರಸಾಯನವನ್ನು ಕುಡಿ.",
+   "src": "Kulaśekhara, Mukundamālā — Kāvyamālā ed. 1886, GRETIL via Ambuda (CC BY-NC-SA 4.0) · v.21",
+   "ver": "source"
+  },
+  {
+   "sa": "विद्या नाम नरस्य रूपमधिकं प्रच्छन्नगुप्तं धनं विद्या भोगकरी यशःसुखकरी विद्या गुरूणां गुरुः ।\nविद्या बन्धुजनो विदेशगमने विद्या परा देवता विद्या राजसु पूज्यते न तु धनं विद्याविहीनः पशुः ॥",
+   "en": "Learning is a person’s greatest beauty, a hidden treasure; it brings enjoyment, fame and happiness; it is the teacher of teachers, a friend abroad, the highest deity. Kings honour learning, not wealth — without learning one is an animal.",
+   "kn": "ವಿದ್ಯೆಯೇ ಮನುಷ್ಯನ ಶ್ರೇಷ್ಠ ಸೌಂದರ್ಯ, ಗುಪ್ತ ಧನ; ಭೋಗ, ಕೀರ್ತಿ, ಸುಖ ಕೊಡುತ್ತದೆ; ಗುರುಗಳ ಗುರು, ಪರದೇಶದಲ್ಲಿ ಬಂಧು, ಪರಮ ದೈವ. ರಾಜರು ಗೌರವಿಸುವುದು ವಿದ್ಯೆಯನ್ನು, ಧನವನ್ನಲ್ಲ — ವಿದ್ಯೆ ಇಲ್ಲದವನು ಪಶು.",
+   "src": "Bhartṛhari, Nītiśataka — GRETIL text via Ambuda (CC BY-NC-SA 4.0) · v.20",
+   "ver": "source"
+  },
+  {
+   "sa": "केयूराणि न भूषयन्ति पुरुषं हारा न चन्द्रोज्ज्वला न स्नानं न विलेपनं न कुसुमं नालङ्कृता मूर्धजाः ।\nवाण्येका समलङ्करोति पुरुषं या संस्कृता धार्यते क्षीयन्ते खलु भूषणानि सततं वाग्भूषणं भूषणम् ॥",
+   "en": "Armlets do not adorn a person, nor moon-bright necklaces, baths, perfumes, flowers or dressed hair. Only refined speech truly adorns; all ornaments wear away — speech is the lasting ornament.",
+   "kn": "ಕಡಗ, ಹಾರ, ಸ್ನಾನ, ಲೇಪನ, ಹೂವು, ಅಲಂಕೃತ ಕೂದಲು — ಇವು ಮನುಷ್ಯನನ್ನು ಅಲಂಕರಿಸುವುದಿಲ್ಲ. ಸಂಸ್ಕಾರಯುತ ಮಾತೊಂದೇ ನಿಜವಾದ ಅಲಂಕಾರ; ಆಭರಣಗಳು ಸವೆಯುತ್ತವೆ, ವಾಗ್ಭೂಷಣವೇ ಭೂಷಣ.",
+   "src": "Bhartṛhari, Nītiśataka — GRETIL text via Ambuda (CC BY-NC-SA 4.0) · v.19",
+   "ver": "source"
+  },
+  {
+   "sa": "जाड्यं धियो हरति सिञ्चति वाचि सत्यं मानोन्नतिं दिशति पापमपाकरोति ।\nचेतः प्रसादयति दिक्षु तनोति कीर्तिं सत्सङ्गतिः कथय किं न करोति पुंसाम् ॥",
+   "en": "Good company removes dullness of mind, pours truth into speech, raises honour, removes sin, calms the heart and spreads fame everywhere — tell me, what does good company not do for a person?",
+   "kn": "ಸತ್ಸಂಗ ಬುದ್ಧಿಯ ಜಡತ್ವವನ್ನು ಹೋಗಲಾಡಿಸುತ್ತದೆ, ಮಾತಿನಲ್ಲಿ ಸತ್ಯ ತುಂಬುತ್ತದೆ, ಗೌರವ ಹೆಚ್ಚಿಸುತ್ತದೆ, ಪಾಪ ಕಳೆಯುತ್ತದೆ, ಮನಸ್ಸನ್ನು ಪ್ರಸನ್ನಗೊಳಿಸುತ್ತದೆ, ಕೀರ್ತಿ ಹರಡುತ್ತದೆ — ಸತ್ಸಂಗ ಏನು ಮಾಡುವುದಿಲ್ಲ?",
+   "src": "Bhartṛhari, Nītiśataka — GRETIL text via Ambuda (CC BY-NC-SA 4.0) · v.23",
+   "ver": "source"
+  },
+  {
+   "sa": "प्रारभ्यते न खलु विघ्नभयेन नीचैः प्रारभ्य विघ्नविहता विरमन्ति मध्याः ।\nविघ्नैः पुनः पुनरपि प्रतिहन्यमानाः प्रारब्धमुत्तमजना न परित्यजन्ति ॥",
+   "en": "The lowly never begin, fearing obstacles; the middling begin but stop when obstacles strike; the best, though struck again and again, never abandon what they have begun.",
+   "kn": "ಕೀಳುಜನರು ವಿಘ್ನಭಯದಿಂದ ಆರಂಭಿಸುವುದೇ ಇಲ್ಲ; ಮಧ್ಯಮರು ಆರಂಭಿಸಿ ವಿಘ್ನ ಬಂದಾಗ ನಿಲ್ಲಿಸುತ್ತಾರೆ; ಉತ್ತಮರು ಮತ್ತೆ ಮತ್ತೆ ವಿಘ್ನ ಬಂದರೂ ಆರಂಭಿಸಿದ್ದನ್ನು ಬಿಡುವುದಿಲ್ಲ.",
+   "src": "Bhartṛhari, Nītiśataka — GRETIL text via Ambuda (CC BY-NC-SA 4.0) · v.27",
+   "ver": "source"
+  },
+  {
+   "sa": "अज्ञः सुखमाराध्यः सुखतरमाराध्यते विशेषज्ञः ।\nज्ञानलवदुर्विदग्धं ब्रह्मापि तं नरं न रञ्जयति ॥",
+   "en": "The ignorant are easily convinced, the truly learned even more easily; but a person puffed up with a little knowledge — not even Brahmā can win him over.",
+   "kn": "ಅಜ್ಞಾನಿಯನ್ನು ಸುಲಭವಾಗಿ ಒಪ್ಪಿಸಬಹುದು, ಜ್ಞಾನಿಯನ್ನು ಇನ್ನೂ ಸುಲಭವಾಗಿ; ಆದರೆ ಅಲ್ಪಜ್ಞಾನದಿಂದ ಗರ್ವಪಟ್ಟವನನ್ನು ಬ್ರಹ್ಮನೂ ಒಪ್ಪಿಸಲಾರ.",
+   "src": "Bhartṛhari, Nītiśataka — GRETIL text via Ambuda (CC BY-NC-SA 4.0) · v.3",
+   "ver": "source"
+  },
+  {
+   "sa": "येषां न विद्या न तपो न दानं ज्ञानं न शीलं न गुणो न धर्मः ।\nते मर्त्यलोके भुवि भारभूता मनुष्यरूपेण मृगाश्चरन्ति ॥",
+   "en": "Those who have neither learning, austerity, charity, knowledge, good conduct, virtue nor dharma are a burden on the earth — animals wandering in human form.",
+   "kn": "ವಿದ್ಯೆ, ತಪಸ್ಸು, ದಾನ, ಜ್ಞಾನ, ಶೀಲ, ಗುಣ, ಧರ್ಮ — ಇವು ಯಾವುದೂ ಇಲ್ಲದವರು ಭೂಮಿಗೆ ಭಾರ; ಮನುಷ್ಯರೂಪದಲ್ಲಿ ಅಲೆಯುವ ಪಶುಗಳು.",
+   "src": "Bhartṛhari, Nītiśataka — GRETIL text via Ambuda (CC BY-NC-SA 4.0) · v.13",
+   "ver": "source"
+  }
+ ]
 }
